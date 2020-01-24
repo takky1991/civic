@@ -1,0 +1,38 @@
+footer {
+    font-size: 14px;
+    background-color: #e6e7e9;
+
+    @media (max-width: 767px) {
+        text-align: center;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    h5 {
+        color: #ffc905;
+    }
+
+    .img {
+        width: 100;
+
+        img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .contact {
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .footer-bottom {
+        padding: 8px;
+        background-color: #58595b;
+        color: #ffc905;
+        font-size: 12px;
+    }
+}

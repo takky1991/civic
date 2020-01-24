@@ -1,0 +1,40 @@
+.contact-page {
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:500px;
+        width:100%;
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:600px;
+    }
+    
+    .info-item {
+        padding-left: 30px;
+        position: relative;
+        
+        a {
+            color: #212529;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        
+        i {
+            position: absolute;
+            left: 0px;
+            top: 3px;
+            font-size: 20px;
+            color: #fdc22b;
+        }
+        
+        h5 {
+            font-weight: bold;
+        }
+    }
+}

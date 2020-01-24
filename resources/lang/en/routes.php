@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'contact' => 'contact',
+    'profiled-sheets' => 'profiled-sheets',
+    'prestige' => 'prestige',
+    'elegant' => 'elegant',
+    'attractive' => 'attractive',
+    'trend' => 'trend',
+    'dampa' => 'dampa',
+    'montage' => 'montage',
+    'kaplama' => 'kaplama',
+    'siege-sheets' => 'siege-sheets',
+    'metal-products' => 'metal-products',
+    'horizontal-gutter' => 'horizontal-gutter',
+    'gutter-hooks' => 'gutter-hooks',
+    'gutter-kettle' => 'gutter-kettle',
+    'drain-pipes' => 'drain-pipes',
+    'pipe-holders' => 'pipe-holders',
+    'pipe-elbows' => 'pipe-elbows',
+    'gutter-closure' => 'gutter-closure',
+    'gutter-corner' => 'gutter-corner',
+    'other-metal-products' => 'other-metal-products',
+    'termopor' => 'termopor',
+    'dry-build' => 'dry-build',
+    'references' => 'references',
+    'perforated-mesh' => 'perforated-mesh',
+    'rainwater-system' => 'rainwater-system',
+    'snow-stops' => 'snow-stops',
+    'paneling' => 'paneling',
+    'article1' => 'cestitka-povodom-novogodisnjih-praznika'
+];

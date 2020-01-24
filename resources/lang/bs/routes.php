@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'contact' => 'kontakt-informacije',
+    'profiled-sheets' => 'profilisani-limovi',
+    'prestige' => 'crijep-ploca-prestige',
+    'elegant' => 'trapezni-lim-t15-elegant',
+    'attractive' => 'trapezni-lim-t20-atractive',
+    'trend' => 'trapezni-lim-t35-trend',
+    'dampa' => 'dampa',
+    'montage' => 'montaza',
+    'kaplama' => 'kaplama',
+    'siege-sheets' => 'opsavni-limovi',
+    'metal-products' => 'metalna-galanterija',
+    'horizontal-gutter' => 'horizontalni-oluk',
+    'gutter-hooks' => 'kuke-za-oluk',
+    'gutter-kettle' => 'olucni-kotlic',
+    'drain-pipes' => 'odvodne-cijevi',
+    'pipe-holders' => 'drzaci-za-cijevi',
+    'pipe-elbows' => 'koljena-za-cijevi',
+    'gutter-closure' => 'zatvarc-za-oluke',
+    'gutter-corner' => 'vinklo',
+    'other-metal-products' => 'ostala-galanterija',
+    'termopor' => 'termopor',
+    'dry-build' => 'suha-gradja',
+    'references' => 'reference',
+    'perforated-mesh' => 'perforirana-mrezica',
+    'rainwater-system' => 'sistem-oborinskih-voda',
+    'snow-stops' => 'snjegobrani',
+    'paneling' => 'lamperija',
+    'article1' => 'cestitka-povodom-novogodisnjih-praznika'
+];
