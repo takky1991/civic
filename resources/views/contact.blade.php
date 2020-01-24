@@ -15,9 +15,12 @@
                         <h5>{{__('general.hq')}}</h5>
                         <a class="text-muted" href="tel:+38737539007">+387 (0) 37 539 007</a>
                     </div>
+<<<<<<< HEAD
 
 
                     
+=======
+>>>>>>> 72447646a08e03b4f3c941ab079b59e94f0f04ae
                     <br>
         
                     <div class="info-item">
