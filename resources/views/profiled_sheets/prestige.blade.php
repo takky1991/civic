@@ -32,7 +32,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-6">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="{{asset('img/profilisani_limovi/prestige/RAL3009.png')}}" class="d-block w-100" alt="prestige ral3009">
@@ -158,7 +158,7 @@
                     <div class="bg-img" @click="index = 3" style="background-image:url('{{asset('img/profilisani_limovi/prestige/example3.png')}}')"></div>
                 </div>
                 <div class="col-md-6">
-                    <div class="bg-img" @click="index = 4" style="background-image:url('{{asset('img/profilisani_limovi/prestige/example4.png')}}')"></div>
+                    <div class="bg-img" @click="index = 4" style="background-image:url('{{asset('img/profilisani_limovi/prestige/example4.jpg')}}')"></div>
                 </div>
                 <div class="col-12">
                     <div class="bg-img" @click="index = 5" style="background-image:url('{{asset('img/profilisani_limovi/prestige/example5.png')}}')"></div>
@@ -171,7 +171,7 @@
                 '{{asset('img/profilisani_limovi/prestige/example1.png')}}',
                 '{{asset('img/profilisani_limovi/prestige/example2.jpg')}}',
                 '{{asset('img/profilisani_limovi/prestige/example3.png')}}',
-                '{{asset('img/profilisani_limovi/prestige/example4.png')}}',
+                '{{asset('img/profilisani_limovi/prestige/example4.jpg')}}',
                 '{{asset('img/profilisani_limovi/prestige/example5.png')}}'
             ]" 
             :index="index" 

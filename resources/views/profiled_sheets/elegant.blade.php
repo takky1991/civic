@@ -32,7 +32,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-6">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="{{asset('img/profilisani_limovi/tr10/RAL3009.png')}}" class="d-block w-100" alt="tr10 ral3009">
