@@ -103,6 +103,10 @@
                                 <td>Prestige</td>
                             </tr>
                             <tr>
+                                <th scope="row">UKUPNA POVRŠINA</th>
+                                <td>1180 mm</td>
+                            </tr>
+                            <tr>
                                 <th scope="row">{{__('general.useful_surface')}}</th>
                                 <td>1100 mm</td>
                             </tr>

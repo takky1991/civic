@@ -112,11 +112,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">{{__('general.width_straight_part')}}</th>
-                                <td>80,5 mm</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">{{__('general.wavewidth')}}</th>
-                                <td>57 mm</td>
+                                <td>78 mm</td>
                             </tr>
                             <tr>
                                 <th scope="row">{{__('general.waveheight')}}</th>

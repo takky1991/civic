@@ -147,7 +147,7 @@
                     </a>
                 </div>
 
-                <div class="homepage-articles" style="background-color: #e6e7e9;">
+                <!-- <div class="homepage-articles" style="background-color: #e6e7e9;">
                     <div class="container">
                         <br>
                         <h3 class="text-center">{{__('general.news')}}</h3>
@@ -163,36 +163,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                {{-- <div class="homepage-logos">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 text-center">
-                                <div class="img">
-                                    <img style="width:200px" src="{{asset('img/banner.png')}}" alt="civic banner">
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <div class="img">
-                                    <img style="width:200px" v-lazy="'{{asset('img/termopor_2.png')}}'" alt="civic termopor">
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <div class="img">
-                                    <img style="width:200px" v-lazy="'{{asset('img/90godina.png')}}'" alt="civic 90 godina">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <img class="w-100 d-none d-md-block" v-lazy="'{{asset('img/photo2.jpg')}}'" alt="civic group">
-                <img class="w-100 d-block d-md-none" v-lazy="'{{asset('img/photo2mobile.jpg')}}'" alt="civic group">
+                </div> -->
 
                 <br>
                 <br>
-
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -203,12 +177,6 @@
                         </div>
                     </div>
                 </div>
-                
-                {{-- <img class="w-100 d-none d-md-block" v-lazy="'{{asset('img/photo1.jpg')}}'" alt="civic group">
-                <img class="w-100 d-block d-md-none" v-lazy="'{{asset('img/photo1mobile.jpg')}}'" alt="civic group">
-
-                <br>
-                <br> --}}
 
                 <div class="container">
                     <div class="row">
@@ -244,6 +212,31 @@
                     </div>
                 </div>
 
+                <br>
+                <div class="homepage-logos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="img">
+                                    <img style="width:200px" src="{{asset('img/banner.png')}}" alt="civic banner">
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="img">
+                                    <img style="width:200px" v-lazy="'{{asset('img/termopor_2.png')}}'" alt="civic termopor">
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="img">
+                                    <img style="width:200px" v-lazy="'{{asset('img/90godina.png')}}'" alt="civic 90 godina">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
                 <img class="w-100 d-none d-md-block" v-lazy="'{{asset('img/photo7.jpg')}}'" alt="civic group">
                 <img class="w-100 d-block d-md-none" v-lazy="'{{asset('img/photo7mobile.jpg')}}'" alt="civic group">
 
@@ -254,19 +247,31 @@
                     <div class="container">
                         <div class="fullWidth eight columns">
                             <div class="projectFactsWrap" id="projectFactsWrap">
-                                <div class="item wow fadeInUpBig animated animated" data-number="110000">
-                                    <p class="number"><span id="number1">110000</span>+ m3</p>
+                                <div class="item wow fadeInUpBig animated animated" data-number="110">
+                                    <div class="icon">
+                                        <i class="fa fa-th"></i>
+                                    </div>
+                                    <p class="number"><span id="number1">110</span>+</p>
                                     <p>{{__('general.sold_per_year')}}</p>
                                 </div>
                                 <div class="item wow fadeInUpBig animated animated" data-number="100">
+                                    <div class="icon">
+                                        <i class="fa fa-users"></i>
+                                    </div>
                                     <p class="number"><span id="number2">100</span>+</p>
                                     <p>{{__('general.qualified_workers')}}</p>
                                 </div>
                                 <div class="item wow fadeInUpBig animated animated" data-number="50">
+                                    <div class="icon">
+                                        <i class="fa fa-truck"></i>
+                                    </div>
                                     <p class="number"><span id="number3">50</span>+</p>
                                     <p>{{__('general.machines')}}</p>
                                 </div>
                                 <div class="item wow fadeInUpBig animated animated" data-number="500">
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
                                     <p class="number"><span id="number4">500</span>+</p>
                                     <p>{{__('general.satisfied_clients')}}</p>
                                 </div>
@@ -331,6 +336,11 @@
                         </div>
                     </div>
                 </div>
+
+                <img class="w-100 d-none d-md-block" v-lazy="'{{asset('img/photo2.jpg')}}'" alt="civic group">
+                <img class="w-100 d-block d-md-none" v-lazy="'{{asset('img/photo2mobile.jpg')}}'" alt="civic group">
+                <br>
+                <br>
             @else
                 <div class="container pt-4 pb-5">
                     @yield('content')

@@ -5,7 +5,7 @@ $.fn.jQuerySimpleCounter = function( options ) {
         start:  0,
         end:    100,
         easing: 'swing',
-        duration: 400,
+        duration: 300,
         complete: ''
     }, options );
 
@@ -28,9 +28,9 @@ window.addEventListener("scroll", () => {
       var bounding = document.getElementById('projectFactsWrap').getBoundingClientRect();
       
       if (!counterRun && (bounding.top < window.innerHeight || bounding.top < document.documentElement.clientHeight)) {
-         $('#number1').jQuerySimpleCounter({end: 110000, duration: 5000});
+         $('#number1').jQuerySimpleCounter({end: 110, duration: 3000});
          $('#number2').jQuerySimpleCounter({end: 100,duration: 3000});
-         $('#number3').jQuerySimpleCounter({end: 50,duration: 4000});
+         $('#number3').jQuerySimpleCounter({end: 50,duration: 3000});
          $('#number4').jQuerySimpleCounter({end: 500,duration: 3000});
          counterRun = true;
       }

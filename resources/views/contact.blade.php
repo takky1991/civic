@@ -8,7 +8,7 @@
             <br>
         </div>
         
-        <div class="col-lg-5 mb-5">
+        <div class="col-lg-4 mb-5">
             <h4 class="mt-2 mb-1">Naš <strong>Ured</strong></h4>
             <br>
             <div class="col-md-12 pb-4">
@@ -17,6 +17,13 @@
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <h5>{{__('general.address')}}</h5>
                     <a class="text-muted" href="#">Mala lisa bb, 77220 Cazin, Bosna i Hercegovina</a>
+                </div>
+
+                <br>
+                <div class="info-item">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h5>{{__('general.address')}} EU</h5>
+                    <a class="text-muted" href="#">Lastovska 11, 10000 Zagreb, Croatia</a>
                 </div>
 
                 <br>
@@ -40,22 +47,7 @@
                     <a class="text-muted" href="tel:+38737307600">+387 (0) 37 307 600</a>
                 </div>
 
-            </div>
-        </div>
-        
-        <div class="col-lg-5 mb-5">
-            <h4 class="mt-2 mb-1"><strong></strong></h4>
-            <br>   
-            <br>  
-            <div class="col-md-12 pb-4">
-                <div class="info-item">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <h5>{{__('general.address')}} EU</h5>
-                    <a class="text-muted" href="#">Lastovska 11, 10000 Zagreb, Croatia</a>
-                </div>
-
                 <br>
-
                 <div class="info-item">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     <h5>Email</h5>
@@ -63,7 +55,6 @@
                 </div>
 
                 <br>
-
                 <div class="info-item">
                     <a href="https://www.facebook.com/civicbih" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -79,6 +70,10 @@
                     </a>
                 </div>
             </div>
+        </div>
+        
+        <div class="col-lg-8 mb-5">
+            <img src="img/office_building.jpg" class="img-fluid" alt="Responsive image">  
         </div>
     </div>
                        
