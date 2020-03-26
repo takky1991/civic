@@ -70,7 +70,7 @@
 					    <div class="card-body">
 						    <h3 id="bat_snow_stop">&#8226; {{__('general.bat_snow_stop')}}</span></h3>
                             <br>
-                            <div data-v-7e94e6d4="" class="cover-bg" style="background-image: url(&quot;http://127.0.0.1:8000/img/metalna_galanterija/snjegobrani/cover.jpg&quot;); height: 300px;"></div>
+                            <div data-v-7e94e6d4="" class="cover-bg" style="background-image: url('{{asset('img/metalna_galanterija/snjegobrani/cover.jpg')}}'); height: 300px;"></div>
                             <br>
                             <div class="row">
                                 <div class="col-md-6 gallery">
