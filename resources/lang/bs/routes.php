@@ -28,5 +28,6 @@ return [
     'rainwater-system' => 'sistem-oborinskih-voda',
     'snow-stops' => 'snjegobrani',
     'paneling' => 'lamperija',
-    'article1' => 'cestitka-povodom-novogodisnjih-praznika'
+    'article1' => 'cestitka-povodom-novogodisnjih-praznika',
+    'about-us' => 'o-nama'
 ];

@@ -37,4 +37,7 @@ Route::multilingual('references', 'PagesController@references')->name('reference
 Route::multilingual('perforated-mesh', 'PagesController@perforatedMesh')->name('perforated_mesh');
 Route::multilingual('snow-stops', 'PagesController@snowStops')->name('snow_stops');
 Route::multilingual('paneling', 'PagesController@paneling')->name('paneling');
+Route::multilingual('about-us', 'PagesController@aboutUs')->name('about_us');
 Route::multilingual('article1', 'ArticlesController@article1')->name('article1');
+
+Route::get('download/metalna-galanterija', 'DownloadsController@getPdf')->name('download_pdf');

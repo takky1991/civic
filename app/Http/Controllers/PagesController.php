@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Library\OpenGraph\OpenGraph;
-
 class PagesController extends Controller
 {
     public $openGraph;
@@ -679,5 +676,29 @@ class PagesController extends Controller
 
         $this->setBreadcrumbs($breadcrumbs);
         return view('profiled_sheets/paneling');
+    }
+
+    public function aboutUs()
+    {
+        $this->setTitle(__('meta.about_us_title'));
+        $this->setDescription(__('meta.about_us_description'));
+
+        $this->openGraph
+            ->set('og:title', __('meta.about_us_title'))
+            ->set('og:description', __('meta.about_us_description'));
+
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.about_us'),
+                'link' => localized_route('about_us')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+        return view('about_us');
     }
 }

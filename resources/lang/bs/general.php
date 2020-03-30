@@ -279,5 +279,7 @@ return [
     'roof_foil' => 'Krovne folije',
     'roof_foil_description' => 'Krovne folije igraju veliku ulogu u zaštiti objekata od vremenskih uticaja. Osim bolje energetske učinkovitosti, folija nudi i zaštitu od kondenzacije i prodora vode.
     Krovna folija se montira na daščanu podlogu prije letvanja. Glavna funkcija krovne folije jeste propuštanje pare sa donje strane, a ne propuštanje vode sa gornje strane folije. Krovna folija je obavezan dio svakog potkrovlja bez obzira na pokrovni materijal.
-    U ponudi imamo folije od 90 do 230 g/m2.'
+    U ponudi imamo folije od 90 do 230 g/m2.',
+    'about_us' => 'O nama',
+    'catalogs' => 'Katalozi'
 ];

@@ -47,4 +47,6 @@ return [
     'snow_stops_description' => 'Snjegobrani za limeni pokrov, Šišmiš snjegobran, snjegobrani za crijep, tačkasti snjegobrani',
     'rainwater_system_title' => 'Sistem oborinskih voda',
     'rainwater_system_description' => 'Horizontalni oluk, kuke za oluk, olučni kotlic, odvodne cijevi, držači za cijevi, koljena za cijevi, zatvarač za oluke, vinklo, perforirana mrežica',
+    'about_us_title' => 'O nama',
+    'about_us_description' => 'O nama'
 ];

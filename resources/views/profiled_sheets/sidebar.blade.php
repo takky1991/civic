@@ -29,3 +29,18 @@
         </li>
     </ul>
 </div>
+
+<br>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        {{__('general.catalogs')}}
+    </div>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="{{route('download_pdf')}}" target="_blank" class="nav-link">
+                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
+            </a>
+        </li>
+    </ul>
+</div>

@@ -2,14 +2,17 @@
     <div class="container">
         <div class="d-flex justify-content-between">
             <div>
-                <a href="https://www.facebook.com/civicbih" target="_blank" class="pr-3"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-                <a href="https://www.instagram.com/civic.group/" target="_blank" class="pr-3"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                <a href="#" class="px-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
+                <a href="{{localized_route('about_us')}}" class="pr-3">{{__('general.about_us')}}</a>
+                <a href="{{localized_route('references')}}" class="pr-3">{{__('general.references')}}</a>
+                <a href="{{localized_route('contact')}}" class="pr-3">{{__('general.contact')}}</a>
             </div>
       
             <div>
-                <a href="tel: +38737539007" class="px-3"><i class="fa fa-phone" aria-hidden="true"></i> +387 (0) 37 539 007</a>
+                <a href="tel: +38737539007" class="pl-3"><i class="fa fa-phone" aria-hidden="true"></i> +387 (0) 37 539 007</a>
                 <a href="mailto:info@civicbih.com" class="pl-3"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@civicbih.com</a>
+                <a href="https://www.facebook.com/civicbih" target="_blank" class="pl-3"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                <a href="https://www.instagram.com/civic.group/" target="_blank" class="pl-3"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                <a href="#" class="pl-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
             </div>
         </div>
     </div>
@@ -47,6 +50,68 @@
                     explode('.', request()->route()->getName())[1] == 'dampa' ||
                     explode('.', request()->route()->getName())[1] == 'siege_sheets' ||
                     explode('.', request()->route()->getName())[1] == 'montage' ||
+                    explode('.', request()->route()->getName())[1] == 'paneling'
+                ) ? 'active' : ''}}">
+                    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.profiled_sheets')}}</a>
+                    <div aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                        <a class="dropdown-item" href="{{localized_route('prestige')}}">
+                            <img src="{{asset('img/profilisani_limovi/prestige/profile.png')}}" alt="crijep ploca prestige">
+                            <div class="menu-title">
+                                {{__('general.prestige')}} <br>
+                                <span>{{__('general.tile_board')}}</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('trend')}}">
+                            <img src="{{asset('img/profilisani_limovi/tr40/RAL3009_transparent_profile.png')}}" alt="trapezni lim trend">
+                            <div class="menu-title">
+                                {{__('general.trend')}} <br>
+                                <span>{{__('general.trapezoidal_sheet')}}</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('attractive')}}">
+                            <img src="{{asset('img/profilisani_limovi/tr20/RAL9006_transparent_profile.png')}}" alt="trapezni lim attractive">
+                            <div class="menu-title">
+                                {{__('general.attractive')}} <br>
+                                <span>{{__('general.trapezoidal_sheet')}}</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('elegant')}}">
+                            <img src="{{asset('img/profilisani_limovi/tr10/profile.png')}}" alt="trapezni lim elegant">
+                            <div class="menu-title">
+                                {{__('general.elegant')}} <br>
+                                <span>{{__('general.trapezoidal_sheet')}}</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('paneling')}}">
+                            <img src="{{asset('img/profilisani_limovi/lamperija/profile.png')}}" alt="lamperija">
+                            <div class="menu-title">
+                                {{__('general.paneling')}}
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('dampa')}}">
+                            <img src="{{asset('img/profilisani_limovi/dampa/dampa_transparent_profile.png')}}" alt="dampa">
+                            <div class="menu-title">
+                                {{__('general.dampa')}} <br>
+                                <span>{{__('general.facade_panel')}}</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('siege_sheets')}}">
+                            <img src="{{asset('img/profilisani_limovi/opsavni_limovi/vjetar_lajsna/siege_sheets_transparent_profile.png')}}" alt="snjegobrani">
+                            <div class="menu-title">
+                                {{__('general.siege_sheets')}} <br>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{localized_route('montage')}}">
+                            <img src="{{asset('img/profilisani_limovi/montage/montage_transparent_profile.png')}}" alt="montaza lima">
+                            <div class="menu-title">
+                                {{__('general.montage')}} <br>
+                                <span>{{__('general.process_of_montage')}}</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </li>
+                <li class="nav-item dropdown hover {{(
                     explode('.', request()->route()->getName())[1] == 'rainwater_system' ||
                     explode('.', request()->route()->getName())[1] == 'horizontal_gutter' ||
                     explode('.', request()->route()->getName())[1] == 'gutter_hooks' ||
@@ -57,71 +122,11 @@
                     explode('.', request()->route()->getName())[1] == 'gutter_closure' ||
                     explode('.', request()->route()->getName())[1] == 'gutter_corner' ||
                     explode('.', request()->route()->getName())[1] == 'other_metal_products' ||
-                    explode('.', request()->route()->getName())[1] == 'perforated_mesh' ||
-                    explode('.', request()->route()->getName())[1] == 'paneling'
+                    explode('.', request()->route()->getName())[1] == 'perforated_mesh'
                 ) ? 'active' : ''}}">
-                    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.construction_sheet')}}</a>
-                    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                    <a id="dropdownMenu2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.metal_products')}}</a>
+                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
-                        <li class="dropdown-submenu hover custom">
-                            <a id="dropdownMenu2" href="{{localized_route('profiled_sheets')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.profiled_sheets')}}</a>
-                            <div aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
-                                <a class="dropdown-item" href="{{localized_route('prestige')}}">
-                                    <img src="{{asset('img/profilisani_limovi/prestige/profile.png')}}" alt="crijep ploca prestige">
-                                    <div class="menu-title">
-                                        {{__('general.prestige')}} <br>
-                                        <span>{{__('general.tile_board')}}</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('trend')}}">
-                                    <img src="{{asset('img/profilisani_limovi/tr40/RAL3009_transparent_profile.png')}}" alt="trapezni lim trend">
-                                    <div class="menu-title">
-                                        {{__('general.trend')}} <br>
-                                        <span>{{__('general.trapezoidal_sheet')}}</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('attractive')}}">
-                                    <img src="{{asset('img/profilisani_limovi/tr20/RAL9006_transparent_profile.png')}}" alt="trapezni lim attractive">
-                                    <div class="menu-title">
-                                        {{__('general.attractive')}} <br>
-                                        <span>{{__('general.trapezoidal_sheet')}}</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('elegant')}}">
-                                    <img src="{{asset('img/profilisani_limovi/tr10/profile.png')}}" alt="trapezni lim elegant">
-                                    <div class="menu-title">
-                                        {{__('general.elegant')}} <br>
-                                        <span>{{__('general.trapezoidal_sheet')}}</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('paneling')}}">
-                                    <img src="{{asset('img/profilisani_limovi/lamperija/profile.png')}}" alt="lamperija">
-                                    <div class="menu-title">
-                                        {{__('general.paneling')}}
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('dampa')}}">
-                                    <img src="{{asset('img/profilisani_limovi/dampa/dampa_transparent_profile.png')}}" alt="dampa">
-                                    <div class="menu-title">
-                                        {{__('general.dampa')}} <br>
-                                        <span>{{__('general.facade_panel')}}</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('siege_sheets')}}">
-                                    <img src="{{asset('img/profilisani_limovi/opsavni_limovi/vjetar_lajsna/siege_sheets_transparent_profile.png')}}" alt="snjegobrani">
-                                    <div class="menu-title">
-                                        {{__('general.siege_sheets')}} <br>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('montage')}}">
-                                    <img src="{{asset('img/profilisani_limovi/montage/montage_transparent_profile.png')}}" alt="montaza lima">
-                                    <div class="menu-title">
-                                        {{__('general.montage')}} <br>
-                                        <span>{{__('general.process_of_montage')}}</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
                         <li class="dropdown-submenu hover custom">
                             <a id="dropdownMenu3" href="{{localized_route('rainwater_system')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.rainwater_system')}}</a>
                             <div aria-labelledby="dropdownMenu3" class="dropdown-menu border-0">
@@ -211,14 +216,20 @@
                 <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'termopor') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('termopor')}}">EPS</a>
                 </li>
-                <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
+                {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
-                </li>
-                <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'references') ? 'active' : ''}}">
-                    <a class="nav-link" href="{{localized_route('references')}}">{{__('general.references')}}</a>
-                </li>
-                <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'contact') ? 'active' : ''}}">
-                    <a class="nav-link" href="{{localized_route('contact')}}">{{__('general.contact')}}</a>
+                </li> --}}
+                <li class="nav-item dropdown hover">
+                    <a id="dropdownMenu3" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
+                    <ul aria-labelledby="dropdownMenu3" class="dropdown-menu border-0">
+                        <!-- Level two dropdown-->
+                        <li class="">
+                            <a id="dropdownMenu3" href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
+                            </a>
+                        </li>
+                        <!-- End Level two -->
+                    </ul>
                 </li>
                 <li>
                     <a href="{{localized_route('termopor')}}" class="nav-link d-block d-lg-none"><img src="{{asset('img/termopor_2.png')}}" alt="EPS" style="width: 130px"></a>
