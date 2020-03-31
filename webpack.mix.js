@@ -17,6 +17,7 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.copyDirectory('resources/img', 'public/img');
 mix.copyDirectory('resources/fonts', 'public/fonts');
+mix.copyDirectory('resources/pdf', 'storage/app/public/pdf');
 
 if (mix.inProduction()) {
    mix.version();
