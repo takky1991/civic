@@ -219,6 +219,18 @@
                 {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
                 </li> --}}
+
+                <li class="nav-item d-block d-md-none {{(explode('.', request()->route()->getName())[1] == 'about_us') ? 'active' : ''}}">
+                    <a class="nav-link" href="{{localized_route('about_us')}}">{{__('general.about_us')}}</a>
+                </li>
+                <li class="nav-item d-block d-md-none {{(explode('.', request()->route()->getName())[1] == 'references') ? 'active' : ''}}">
+                    <a class="nav-link" href="{{localized_route('references')}}">{{__('general.references')}}</a>
+                </li>
+                <li class="nav-item d-block d-md-none {{(explode('.', request()->route()->getName())[1] == 'contact') ? 'active' : ''}}">
+                    <a class="nav-link" href="{{localized_route('contact')}}">{{__('general.contact')}}</a>
+                </li>
+
+
                 <li class="nav-item dropdown hover">
                     <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
                     <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
