@@ -51,6 +51,60 @@ nav.navbar-expand-lg {
 
     .navbar-nav {
         .dropdown {
+            &.card-layout {
+                &:hover {
+                    @media (min-width: 992px) {
+                        & > .dropdown-menu {
+                            display: -webkit-box;
+                            display: flex;
+                        }
+                    }
+                }
+
+                & > .dropdown-menu {
+                    display: none;
+                    margin: 0;
+                    width: 460px;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    padding: 5px;
+                    border: none;
+
+                    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+                    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+
+                    .dropdown-item {
+                        text-align: center;
+                        width: 150px;
+                        padding: 15px;
+    
+                        &:active {
+                            background-color: #f8f9fa;
+                        }
+                        
+                        img {
+                            width: 100px;
+                        }
+                    
+                        .menu-title {
+                            font-weight: bold;
+                            color: #ffc905;
+                            margin-top: 10px;
+                            line-height: 1;
+                            white-space: normal;
+    
+                            span {
+                                color: #58595b;
+                                font-weight: normal;
+                                font-size: 12px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+
             .dropdown-menu {
                 width: 250px;
                 padding: 5px;

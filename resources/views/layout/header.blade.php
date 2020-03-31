@@ -41,7 +41,7 @@
                 <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'home' ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('home')}}">{{__('general.home')}} <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown hover {{(
+                <li class="nav-item dropdown card-layout {{(
                     explode('.', request()->route()->getName())[1] == 'profiled_sheets' ||
                     explode('.', request()->route()->getName())[1] == 'prestige' ||
                     explode('.', request()->route()->getName())[1] == 'elegant' ||
@@ -52,7 +52,8 @@
                     explode('.', request()->route()->getName())[1] == 'montage' ||
                     explode('.', request()->route()->getName())[1] == 'paneling'
                 ) ? 'active' : ''}}">
-                    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.profiled_sheets')}}</a>
+                    <a href="{{localized_route('profiled_sheets')}}" class="nav-link d-block d-lg-none">{{__('general.profiled_sheets')}}</a>
+                    <a id="dropdownMenu1" href="{{localized_route('profiled_sheets')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle d-none d-lg-block">{{__('general.profiled_sheets')}}</a>
                     <div aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
                         <a class="dropdown-item" href="{{localized_route('prestige')}}">
                             <img src="{{asset('img/profilisani_limovi/prestige/profile.png')}}" alt="crijep ploca prestige">
@@ -109,7 +110,6 @@
                             </div>
                         </a>
                     </div>
-                    
                 </li>
                 <li class="nav-item dropdown hover {{(
                     explode('.', request()->route()->getName())[1] == 'rainwater_system' ||
@@ -220,11 +220,11 @@
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
                 </li> --}}
                 <li class="nav-item dropdown hover">
-                    <a id="dropdownMenu3" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
-                    <ul aria-labelledby="dropdownMenu3" class="dropdown-menu border-0">
+                    <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
+                    <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
                         <li class="">
-                            <a id="dropdownMenu3" href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                            <a id="dropdownMenu7" href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
                                 <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
                             </a>
                         </li>
