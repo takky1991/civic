@@ -219,7 +219,7 @@
                 {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
                 </li> --}}
-                <li class="nav-item dropdown hover">
+                <li class="nav-item dropdown hover" style="border-style: solid;border-width: 1.5px;">
                     <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
                     <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
