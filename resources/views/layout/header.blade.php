@@ -213,8 +213,78 @@
                         <!-- End Level two -->
                     </ul>
                 </li>
-                <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'termopor') ? 'active' : ''}}">
-                    <a class="nav-link" href="{{localized_route('termopor')}}">EPS</a>
+                <li class="nav-item dropdown hover {{(
+                        explode('.', request()->route()->getName())[1] == 'termopor' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_advantages' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_quality' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_facade_system' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_energy_saving' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_other_products' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_f60' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_70' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_f80' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_100' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_150' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_200'
+                    ) ? 'active' : ''}}">
+                    <a id="dropdownMenu4" href="{{localized_route('termopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
+                    <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
+                        <!-- Level two dropdown-->
+                        <li class="dropdown-submenu hover custom">
+                            <a id="dropdownMenu5" href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
+                            <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
+                                <a class="dropdown-item" href="{{localized_route('eps_f60')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-Economic F60">
+                                    <div class="menu-title">
+                                        {{__('general.eps_f60')}} <br>
+                                        <span>{{__('general.facade_insulation')}}</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('eps_70')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-70">
+                                    <div class="menu-title">
+                                        {{__('general.eps_70')}} <br>
+                                        <span>{{__('general.attic_insulation')}}</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('eps_f80')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-F80">
+                                    <div class="menu-title">
+                                        {{__('general.eps_f80')}} <br>
+                                        <span>{{__('general.facade_insulation')}}</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('eps_100')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-100">
+                                    <div class="menu-title">
+                                        {{__('general.eps_100')}} <br>
+                                        <span>{{__('general.floor_insulation')}}</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('eps_150')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-150">
+                                    <div class="menu-title">
+                                        {{__('general.eps_150')}} <br>
+                                        <span>{{__('general.high_load_insulation')}}</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('eps_200')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-200">
+                                    <div class="menu-title">
+                                        {{__('general.eps_200')}} <br>
+                                        <span>{{__('general.high_load_insulation')}}</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="{{localized_route('eps_advantages')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.eps_advantages')}}</a>
+                            <a href="{{localized_route('eps_quality')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.quality')}}</a>
+                            <a href="{{localized_route('eps_facade_system')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.facade_system')}}</a>
+                            <a href="{{localized_route('eps_energy_saving')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.energy_saving')}}</a>
+                            <a href="{{localized_route('eps_other_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.other_products')}}</a>
+                        </li>
+                    </ul>
                 </li>
                 {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
@@ -235,9 +305,15 @@
                     <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
                     <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
-                        <li class="">
-                            <a id="dropdownMenu7" href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                        <li>
+                            <a href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
                                 <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{route('eps_download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
                             </a>
                         </li>
                         <!-- End Level two -->

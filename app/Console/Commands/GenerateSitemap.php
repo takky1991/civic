@@ -101,9 +101,6 @@ class GenerateSitemap extends Command
             ->add(localized_route('other_metal_products', [], 'bs'))
             //->add(localized_route('other_metal_products', [], 'en'))
 
-            ->add(localized_route('termopor', [], 'bs'))
-            //->add(localized_route('termopor', [], 'en'))
-
             ->add(localized_route('dry_build', [], 'bs'))
             //->add(localized_route('dry_build', [], 'en'))
 
@@ -120,7 +117,26 @@ class GenerateSitemap extends Command
             //->add(localized_route('paneling', [], 'en'))
             
             // Articles
-            ->add(localized_route('article1', [], 'bs'));
+            ->add(localized_route('article1', [], 'bs'))
+
+            // EPS
+            ->add(localized_route('termopor', [], 'bs'))
+            //->add(localized_route('termopor', [], 'en'))
+
+            ->add(localized_route('eps_advantages', [], 'bs'))
+            //->add(localized_route('eps_advantages', [], 'en'))
+
+            ->add(localized_route('eps_quality', [], 'bs'))
+            //->add(localized_route('eps_quality', [], 'en'))
+
+            ->add(localized_route('facade_system', [], 'bs'))
+            //->add(localized_route('facade_system', [], 'en'))
+
+            ->add(localized_route('energy_saving', [], 'bs'))
+            //->add(localized_route('energy_saving', [], 'en'))
+
+            ->add(localized_route('other_products', [], 'bs'));
+            //->add(localized_route('energy_saving', [], 'en'))
 
         $sitemap->writeToFile($path);
     }

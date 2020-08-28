@@ -29,5 +29,16 @@ return [
     'snow-stops' => 'snjegobrani',
     'paneling' => 'lamperija',
     'article1' => 'cestitka-povodom-novogodisnjih-praznika',
-    'about-us' => 'o-nama'
+    'about-us' => 'o-nama',
+    'eps-advantages' => 'eps-prednosti',
+    'eps-quality' => 'eps-kvaliteta',
+    'eps-facade-system' => 'eps-fasadni-sistem',
+    'eps-energy-saving' => 'eps-usteda-energije',
+    'eps-other-products' => 'eps-ostali-proizvodi',
+    'eps-economic-f60' => 'eps-economic-f60',
+    'eps-70' => 'eps-70',
+    'eps-f80' => 'eps-f80',
+    'eps-100' => 'eps-100',
+    'eps-150' => 'eps-150',
+    'eps-200' => 'eps-200'
 ];
