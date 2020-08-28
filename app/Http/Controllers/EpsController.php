@@ -145,4 +145,130 @@ class EpsController extends Controller
 
         return view('eps/other_products');
     }
+
+    public function epsF60() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_f60'),
+                'link' => localized_route('eps_f60')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_f60');
+    }
+
+    public function eps70() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_70'),
+                'link' => localized_route('eps_70')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_70');
+    }
+
+    public function epsf80() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_f80'),
+                'link' => localized_route('eps_f80')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_f80');
+    }
+
+    public function eps100() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_100'),
+                'link' => localized_route('eps_100')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_100');
+    }
+
+    public function eps150() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_150'),
+                'link' => localized_route('eps_150')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_150');
+    }
+
+    public function eps200() {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.eps_200'),
+                'link' => localized_route('eps_200')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products/eps_200');
+    }
 }

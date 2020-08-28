@@ -219,7 +219,13 @@
                         explode('.', request()->route()->getName())[1] == 'eps_quality' ||
                         explode('.', request()->route()->getName())[1] == 'eps_facade_system' ||
                         explode('.', request()->route()->getName())[1] == 'eps_energy_saving' ||
-                        explode('.', request()->route()->getName())[1] == 'eps_other_products'
+                        explode('.', request()->route()->getName())[1] == 'eps_other_products' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_f60' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_70' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_f80' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_100' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_150' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_200'
                     ) ? 'active' : ''}}">
                     <a id="dropdownMenu4" href="{{localized_route('termopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
                     <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
@@ -227,41 +233,47 @@
                         <li class="dropdown-submenu hover custom">
                             <a id="dropdownMenu5" href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
                             <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
-                                <a class="dropdown-item" href="{{localized_route('horizontal_gutter')}}">
-                                    <img src="{{asset('img/metalna_galanterija/horizontalni_oluk/profile.png')}}" alt="horizontalni oluk">
-                                    <div class="menu-title">{{__('general.horizontal_gutter')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_f60')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-Economic F60">
+                                    <div class="menu-title">
+                                        {{__('general.eps_f60')}} <br>
+                                        <span>{{__('general.facade_insulation')}}</span>
+                                    </div>
                                 </a>
-                                <a class="dropdown-item" href="{{localized_route('gutter_hooks')}}">
-                                    <img src="{{asset('img/metalna_galanterija/kuke_za_oluk/profile1.png')}}" alt="kuke za oluk">
-                                    <div class="menu-title">{{__('general.gutter_hooks')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_70')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-70">
+                                    <div class="menu-title">
+                                        {{__('general.eps_70')}} <br>
+                                        <span>{{__('general.attic_insulation')}}</span>
+                                    </div>
                                 </a>
-                                <a class="dropdown-item" href="{{localized_route('gutter_kettle')}}">
-                                    <img src="{{asset('img/metalna_galanterija/olucni_kotlic/profile.png')}}" alt="olucni kotlic">
-                                    <div class="menu-title">{{__('general.gutter_kettle')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_f80')}}">
+                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-F80">
+                                    <div class="menu-title">
+                                        {{__('general.eps_f80')}} <br>
+                                        <span>{{__('general.facade_insulation')}}</span>
+                                    </div>
                                 </a>
-                                <a class="dropdown-item" href="{{localized_route('drain_pipes')}}">
-                                    <img src="{{asset('img/metalna_galanterija/odvodne_cijevi/profile.png')}}" alt="odvodne cijevi">
-                                    <div class="menu-title">{{__('general.drain_pipes')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_100')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-100">
+                                    <div class="menu-title">
+                                        {{__('general.eps_100')}} <br>
+                                        <span>{{__('general.floor_insulation')}}</span>
+                                    </div>
                                 </a>
-                                <a class="dropdown-item" href="{{localized_route('pipe_holders')}}">
-                                    <img src="{{asset('img/metalna_galanterija/drzaci_za_cijevi/profile.png')}}" alt="drzaci za cijevi">
-                                    <div class="menu-title">{{__('general.pipe_holders')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_150')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-150">
+                                    <div class="menu-title">
+                                        {{__('general.eps_150')}} <br>
+                                        <span>{{__('general.high_load_insulation')}}</span>
+                                    </div>
                                 </a>
-                                <a class="dropdown-item" href="{{localized_route('pipe_elbows')}}">
-                                    <img src="{{asset('img/metalna_galanterija/koljena_za_cijevi/profile.png')}}" alt="koljena za cijevi">
-                                    <div class="menu-title">{{__('general.pipe_elbows')}}</div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('gutter_closure')}}">
-                                    <img src="{{asset('img/metalna_galanterija/zatvarac_za_oluke/profile.png')}}" alt="zatvarac za oluke">
-                                    <div class="menu-title">{{__('general.gutter_closure')}}</div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('gutter_corner')}}">
-                                    <img src="{{asset('img/metalna_galanterija/vinklo/profile.png')}}" alt="vinklo">
-                                    <div class="menu-title">{{__('general.gutter_corner')}}</div>
-                                </a>
-                                <a class="dropdown-item" href="{{localized_route('perforated_mesh')}}">
-                                    <img src="{{asset('img/metalna_galanterija/perforirana_mrezica/profile.png')}}" alt="perforirana mrezica">
-                                    <div class="menu-title">{{__('general.perforated_mesh')}}</div>
+                                <a class="dropdown-item" href="{{localized_route('eps_200')}}">
+                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-200">
+                                    <div class="menu-title">
+                                        {{__('general.eps_200')}} <br>
+                                        <span>{{__('general.high_load_insulation')}}</span>
+                                    </div>
                                 </a>
                             </div>
                         </li>

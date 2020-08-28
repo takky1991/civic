@@ -47,6 +47,13 @@ Route::multilingual('eps-facade-system', 'EpsController@facadeSystem')->name('ep
 Route::multilingual('eps-energy-saving', 'EpsController@energySaving')->name('eps_energy_saving');
 Route::multilingual('eps-other-products', 'EpsController@otherProducts')->name('eps_other_products');
 
+Route::multilingual('eps-economic-f60', 'EpsController@epsF60')->name('eps_f60');
+Route::multilingual('eps-70', 'EpsController@eps70')->name('eps_70');
+Route::multilingual('eps-f80', 'EpsController@epsf80')->name('eps_f80');
+Route::multilingual('eps-100', 'EpsController@eps100')->name('eps_100');
+Route::multilingual('eps-150', 'EpsController@eps150')->name('eps_150');
+Route::multilingual('eps-200', 'EpsController@eps200')->name('eps_200');
+
 // Donwload
 Route::get('download/gradjevinska-limarija', 'DownloadsController@getPdf')->name('download_pdf');
 Route::get('download/termopor', 'DownloadsController@getEpsPdf')->name('eps_download_pdf');

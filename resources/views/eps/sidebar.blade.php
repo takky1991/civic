@@ -3,29 +3,23 @@
         {{__('general.termopor_products')}}
     </div>
     <ul class="nav flex-column">
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'prestige' ? 'active' : ''}}">
-            <a class="nav-link active" href="{{localized_route('prestige')}}">{{__('general.tile_board')}} - {{__('general.prestige')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_f60' ? 'active' : ''}}">
+            <a class="nav-link active" href="{{localized_route('eps_f60')}}">{{__('general.eps_f60')}}</a>
         </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'trend' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('trend')}}">{{__('general.trapezoidal_sheet')}} - {{__('general.trend')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_70' ? 'active' : ''}}">
+            <a class="nav-link" href="{{localized_route('eps_70')}}">{{__('general.eps_70')}}</a>
         </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'attractive' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('attractive')}}">{{__('general.trapezoidal_sheet')}} - {{__('general.attractive')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_f80' ? 'active' : ''}}">
+            <a class="nav-link" href="{{localized_route('eps_f80')}}">{{__('general.eps_f80')}}</a>
         </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'elegant' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('elegant')}}">{{__('general.trapezoidal_sheet')}} - {{__('general.elegant')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_100' ? 'active' : ''}}">
+            <a class="nav-link" href="{{localized_route('eps_100')}}">{{__('general.eps_100')}}</a>
         </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'paneling' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('paneling')}}">{{__('general.paneling')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_150' ? 'active' : ''}}">
+            <a class="nav-link" href="{{localized_route('eps_150')}}">{{__('general.eps_150')}}</a>
         </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'dampa' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('dampa')}}">{{__('general.dampa')}}</a>
-        </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'siege_sheets' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('siege_sheets')}}">{{__('general.siege_sheets')}}</a>
-        </li>
-        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'montage' ? 'active' : ''}}">
-            <a class="nav-link" href="{{localized_route('montage')}}">{{__('general.montage')}}</a>
+        <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_200' ? 'active' : ''}}">
+            <a class="nav-link" href="{{localized_route('eps_200')}}">{{__('general.eps_200')}}</a>
         </li>
     </ul>
 </div>
