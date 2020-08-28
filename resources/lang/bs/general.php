@@ -281,5 +281,11 @@ return [
     Krovna folija se montira na daščanu podlogu prije letvanja. Glavna funkcija krovne folije jeste propuštanje pare sa donje strane, a ne propuštanje vode sa gornje strane folije. Krovna folija je obavezan dio svakog potkrovlja bez obzira na pokrovni materijal.
     U ponudi imamo folije od 90 do 230 g/m2.',
     'about_us' => 'O nama',
-    'catalogs' => 'Katalozi'
+    'catalogs' => 'Katalozi',
+    'eps_advantages' => 'Prednosti EPS-a',
+    'quality' => 'Kvaliteta',
+    'facade_system' => 'Fasadni sistem',
+    'energy_saving' => 'Ušteda energije',
+    'other_products' => 'Ostali proizvodi',
+    'termopor_products' => 'Termopor proizvodi'
 ];

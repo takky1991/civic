@@ -28,5 +28,11 @@ return [
     'rainwater-system' => 'rainwater-system',
     'snow-stops' => 'snow-stops',
     'paneling' => 'paneling',
-    'article1' => 'cestitka-povodom-novogodisnjih-praznika'
+    'article1' => 'cestitka-povodom-novogodisnjih-praznika',
+    'about-us' => 'about-us',
+    'eps-advantages' => 'eps-advantages',
+    'eps-quality' => 'eps-quality',
+    'eps-facade-system' => 'eps-facade-system',
+    'eps-energy-saving' => 'eps-energy-saving',
+    'eps-other-products' => 'eps-other-products'
 ];

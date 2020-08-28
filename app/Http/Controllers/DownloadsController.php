@@ -14,4 +14,13 @@ class DownloadsController extends Controller
 
         return response()->file($pathToFile, $headers);
     }
+
+    public function getEpsPdf()
+    {
+        $pathToFile = storage_path('app/public/pdf/termopor.pdf');
+
+        $headers = ['Content-Type: application/pdf'];
+
+        return response()->file($pathToFile, $headers);
+    }
 }

@@ -213,8 +213,66 @@
                         <!-- End Level two -->
                     </ul>
                 </li>
-                <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'termopor') ? 'active' : ''}}">
-                    <a class="nav-link" href="{{localized_route('termopor')}}">EPS</a>
+                <li class="nav-item dropdown hover {{(
+                        explode('.', request()->route()->getName())[1] == 'termopor' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_advantages' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_quality' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_facade_system' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_energy_saving' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_other_products'
+                    ) ? 'active' : ''}}">
+                    <a id="dropdownMenu4" href="{{localized_route('termopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
+                    <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
+                        <!-- Level two dropdown-->
+                        <li class="dropdown-submenu hover custom">
+                            <a id="dropdownMenu5" href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
+                            <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
+                                <a class="dropdown-item" href="{{localized_route('horizontal_gutter')}}">
+                                    <img src="{{asset('img/metalna_galanterija/horizontalni_oluk/profile.png')}}" alt="horizontalni oluk">
+                                    <div class="menu-title">{{__('general.horizontal_gutter')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('gutter_hooks')}}">
+                                    <img src="{{asset('img/metalna_galanterija/kuke_za_oluk/profile1.png')}}" alt="kuke za oluk">
+                                    <div class="menu-title">{{__('general.gutter_hooks')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('gutter_kettle')}}">
+                                    <img src="{{asset('img/metalna_galanterija/olucni_kotlic/profile.png')}}" alt="olucni kotlic">
+                                    <div class="menu-title">{{__('general.gutter_kettle')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('drain_pipes')}}">
+                                    <img src="{{asset('img/metalna_galanterija/odvodne_cijevi/profile.png')}}" alt="odvodne cijevi">
+                                    <div class="menu-title">{{__('general.drain_pipes')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('pipe_holders')}}">
+                                    <img src="{{asset('img/metalna_galanterija/drzaci_za_cijevi/profile.png')}}" alt="drzaci za cijevi">
+                                    <div class="menu-title">{{__('general.pipe_holders')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('pipe_elbows')}}">
+                                    <img src="{{asset('img/metalna_galanterija/koljena_za_cijevi/profile.png')}}" alt="koljena za cijevi">
+                                    <div class="menu-title">{{__('general.pipe_elbows')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('gutter_closure')}}">
+                                    <img src="{{asset('img/metalna_galanterija/zatvarac_za_oluke/profile.png')}}" alt="zatvarac za oluke">
+                                    <div class="menu-title">{{__('general.gutter_closure')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('gutter_corner')}}">
+                                    <img src="{{asset('img/metalna_galanterija/vinklo/profile.png')}}" alt="vinklo">
+                                    <div class="menu-title">{{__('general.gutter_corner')}}</div>
+                                </a>
+                                <a class="dropdown-item" href="{{localized_route('perforated_mesh')}}">
+                                    <img src="{{asset('img/metalna_galanterija/perforirana_mrezica/profile.png')}}" alt="perforirana mrezica">
+                                    <div class="menu-title">{{__('general.perforated_mesh')}}</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="{{localized_route('eps_advantages')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.eps_advantages')}}</a>
+                            <a href="{{localized_route('eps_quality')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.quality')}}</a>
+                            <a href="{{localized_route('eps_facade_system')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.facade_system')}}</a>
+                            <a href="{{localized_route('eps_energy_saving')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.energy_saving')}}</a>
+                            <a href="{{localized_route('eps_other_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.other_products')}}</a>
+                        </li>
+                    </ul>
                 </li>
                 {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
@@ -235,9 +293,15 @@
                     <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
                     <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
-                        <li class="">
-                            <a id="dropdownMenu7" href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                        <li>
+                            <a href="{{route('download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
                                 <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{route('eps_download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
+                                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
                             </a>
                         </li>
                         <!-- End Level two -->
