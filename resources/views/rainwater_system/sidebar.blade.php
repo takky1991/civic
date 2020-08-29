@@ -45,5 +45,10 @@
                 <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.construction_sheet')}}
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{route('eps_download_pdf')}}" target="_blank" class="nav-link">
+                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
+            </a>
+        </li>
     </ul>
 </div>

@@ -28,5 +28,17 @@ return [
     'rainwater-system' => 'rainwater-system',
     'snow-stops' => 'snow-stops',
     'paneling' => 'paneling',
-    'article1' => 'cestitka-povodom-novogodisnjih-praznika'
+    'article1' => 'cestitka-povodom-novogodisnjih-praznika',
+    'about-us' => 'about-us',
+    'eps-advantages' => 'eps-advantages',
+    'eps-quality' => 'eps-quality',
+    'eps-facade-system' => 'eps-facade-system',
+    'eps-energy-saving' => 'eps-energy-saving',
+    'eps-other-products' => 'eps-other-products',
+    'eps-economic-f60' => 'eps-economic-f60',
+    'eps-70' => 'eps-70',
+    'eps-f80' => 'eps-f80',
+    'eps-100' => 'eps-100',
+    'eps-150' => 'eps-150',
+    'eps-200' => 'eps-200'
 ];
