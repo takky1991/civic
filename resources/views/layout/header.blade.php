@@ -12,7 +12,7 @@
                 <a href="mailto:info@civicbih.com" class="pl-3"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@civicbih.com</a>
                 <a href="https://www.facebook.com/civicbih" target="_blank" class="pl-3"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
                 <a href="https://www.instagram.com/civic.group/" target="_blank" class="pl-3"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                <a href="#" class="pl-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
+                <a href="https://www.google.com/maps/place/Civi%C4%87+d.o.o/@44.9642469,15.9323969,14z/data=!4m8!1m2!2m1!1scivic!3m4!1s0x0:0xe9b5267115a6fa90!8m2!3d44.9647941!4d15.9023666" target="_blank" class="pl-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
       
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="{{localized_route('home')}}"><img src="{{asset('img/civic200.png')}}" alt="civic group logo"></a>
+        <a class="navbar-brand" href="{{localized_route('home')}}"><img src="{{asset('img/civic_logo.png')}}" style="width:250px" alt="civic group logo"></a>
 
         <div class="d-inline d-lg-none">
             {{-- <span class="navbar-text flags">
@@ -219,9 +219,6 @@
                 {{-- <li class="nav-item {{(explode('.', request()->route()->getName())[1] == 'dry_build') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a>
                 </li> --}}
-<<<<<<< HEAD
-                <li class="nav-item dropdown hover" style="border-style: solid;border-width: 1.5px;">
-=======
 
                 <li class="nav-item d-block d-md-none {{(explode('.', request()->route()->getName())[1] == 'about_us') ? 'active' : ''}}">
                     <a class="nav-link" href="{{localized_route('about_us')}}">{{__('general.about_us')}}</a>
@@ -235,7 +232,6 @@
 
 
                 <li class="nav-item dropdown hover">
->>>>>>> c33ac20ff56de3085d12f1016fceeba08246674b
                     <a id="dropdownMenu6" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">{{__('general.catalogs')}}</a>
                     <ul aria-labelledby="dropdownMenu6" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
@@ -261,6 +257,6 @@
             </span> --}}
         </div>
 
-        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/termopor_2.png')}}" alt="EPS" style="width: 130px"></a>
+        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
     </div>
 </nav>
