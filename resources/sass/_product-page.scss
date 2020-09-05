@@ -22,6 +22,21 @@
         font-size: 15px;
     }
 
+    .fibran-xps-p {
+        text-align: left;
+    }
+
+    .fibran-geo-p {
+        text-align: left;
+    }
+
+    li {
+        text-align: justify;
+        color: #58595b;
+        font-size: 15px;
+    }
+
+
     table {
         color: #58595b;
         font-size: 13px;
@@ -133,7 +148,261 @@
     .card .collapse .row {
         padding: 20px;
     } 
-}    
+}   
+
+.fibran-xps {
+    text-align: left;
+    color: #1A3770;
+    font-size: 20px;
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fibran-xps-products {
+    text-align: left;
+    color: #1A3770;
+    font-size: 16px;
+    
+}
+
+.fibran-img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.fibran-geo {
+    text-align: left;
+    color: #F8B80B;
+    font-size: 20px;
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fibran-geo-products {
+    text-align: left;
+    color: #F8B80B;
+    font-size: 16px;
+    
+}
+
+.energija {
+    font-weight: normal;
+}
+
+.energija img {
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+.coefficient {
+    padding-top: 50px;
+    color: #fac824;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wall {
+    padding-top: 20px;
+    color: #707070;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wall-img {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.wall-img {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.facade h1 {
+    color: #fac824;
+    font-weight: normal;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.facade h3 {
+    color: #707070;
+    font-weight: normal;
+    text-align: center;
+    font-size: x-large;
+}
+
+.facade-img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.facade-desc {
+    padding: 30px;
+    background-color: #E6E7E8;
+    border-radius: 25px;
+}
+
+.grey-heading {
+    text-align: right;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.yellow-heading {
+    text-align: left;
+    color: #fac824;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.grey-heading-sm {
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.yellow-heading-sm {
+    color: #fac824;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.eps-quality {
+    padding: 42px;
+    /* text-align: center; */
+    font-style: italic;
+}
+
+.lab {
+    text-align: right;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.lab img {
+    border-radius: 25px;
+    width: 500px;
+}
+
+.quality {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.quality img {
+    text-align: center;
+    border-radius: 25px;
+    margin:auto;
+    padding-bottom: 15px;
+    width: 180px;
+}
+
+.quality p {
+    padding: 15px;
+    font-size: small;
+    width: 200px;
+    text-align: center;
+    background-color: #fac824;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.standard p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: inherit;
+}
+
+.thermopor-logo {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.eps h3 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.eps h1 {
+    color: #fac824;
+    font-size: 32px;
+    text-align: center;
+}
+
+.eps p {
+    margin: 30px;
+    font-style: italic;
+}
+
+.eps h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fac824;
+    font-size: xx-large;
+}
+
+.advantage h3 {
+    font-size: initial;
+}
+
+.advantage p {
+    font-size: small;
+    padding-right: 20px;
+    text-align: inherit;
+}
+
+.advantage {
+    margin-left: 40px;
+}
+
+.advantage img {
+    border-radius: 70px;
+}
+
+.pearl h4 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: xx-large;
+    color: white;
+    background: #fac824;
+    border-radius: 25px;
+}
+
+.graf {
+    text-align: center;
+}
+
+.pearl img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.styropor p {
+    margin: 30px;
+    font-style: italic;
+}
+
+
+
+
+
+
 
 
 

@@ -12,7 +12,7 @@
                 <a href="mailto:info@civicbih.com" class="pl-3"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@civicbih.com</a>
                 <a href="https://www.facebook.com/civicbih" target="_blank" class="pl-3"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
                 <a href="https://www.instagram.com/civic.group/" target="_blank" class="pl-3"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                <a href="#" class="pl-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
+                <a href="https://www.google.com/maps/place/Civi%C4%87+d.o.o/@44.9642469,15.9323969,14z/data=!4m8!1m2!2m1!1scivic!3m4!1s0x0:0xe9b5267115a6fa90!8m2!3d44.9647941!4d15.9023666" target="_blank" class="pl-3"><i class="fa fa-map-marker" aria-hidden="true"></i> Cazin, BIH</a>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
       
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="{{localized_route('home')}}"><img src="{{asset('img/civic200.png')}}" alt="civic group logo"></a>
+        <a class="navbar-brand" href="{{localized_route('home')}}"><img src="{{asset('img/civic_logo.png')}}" style="width:250px" alt="civic group logo"></a>
 
         <div class="d-inline d-lg-none">
             {{-- <span class="navbar-text flags">
@@ -333,6 +333,6 @@
             </span> --}}
         </div>
 
-        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/termopor_2.png')}}" alt="EPS" style="width: 130px"></a>
+        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
     </div>
 </nav>
