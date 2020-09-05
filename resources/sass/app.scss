@@ -17,10 +17,11 @@ body{
 
 .breadcrumbs {
     font-size: 15px;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+    padding-top: 10px;
     
     .breadcrumb {
-        background-color: #f8f9fa;
+        background-color: #ffffff;
         padding: 0.75rem 0rem;
 
         a {
@@ -117,7 +118,7 @@ h3 {
     .sidebar-header {
         padding-bottom: 15px;
         color: #58595b;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .nav {
@@ -464,3 +465,9 @@ h3 {
         }
     }
 }
+
+.mrezica {
+    color: #F8B80B;
+    font-size: 28px;
+}
+

@@ -285,7 +285,7 @@ return [
     'eps_advantages' => 'Prednosti EPS-a',
     'quality' => 'Kvaliteta',
     'facade_system' => 'Fasadni sistem',
-    'energy_saving' => 'Ušteda energije',
+    'energy_saving' => 'Ušteda energije!',
     'other_products' => 'Ostali proizvodi',
     'termopor_products' => 'Termopor proizvodi',
     'facade_insulation' => 'Izolacija fasada',
@@ -297,5 +297,112 @@ return [
     'eps_f80' => 'EPS-F80',
     'eps_100' => 'EPS-100',
     'eps_150' => 'EPS-150',
-    'eps_200' => 'EPS-200'
+    'eps_200' => 'EPS-200',
+
+    'fibran_xps_description' => 'FIBRANxps su toplotni izolacijski materijali od polistirenske pjene. 
+    Odlikuju se visokim i dugotrajnim termoizolacijskim svojstvima, minimalnom apsorpcijom vode, visokom čvrstoćom na kompresiju i dimenzijskom stabilnošću. 
+    XPS nije lako zapaljiv, a kompatibilnost sa građevinskim materijalima poput cementa, gipsa, kreča i pijeska je izvrsna.',
+
+    'fibran_geo_description' => 'Kamena vuna FIBRANgeo je prirodni vlaknasti materijal, 100% recikliran. Proizvodi se od minerala poput bazalta, krečnjaka, dolomita i boksita, sirovina starih 200 miliona g odina. Zbog svoje vlaknaste strukture, FIBRANgeo ima vrlo nizak koeficijent toplinske provodljivosti
+    materijala i visoku toplotnu otpornost te pruža odličnu t oplotnu izolaciju. Proizvodi od kamene vune imaju visoke vrijednosti koeficijenta apsorpcije zvuka i nezapaljivi su materijali koji održavaju svoja svojstva na temperaturama do 700ºC.',
+
+    'mesh_description' => 'Fasadna staklena mrežica igra veliku ulogu u izgradnji fasadnih sistema. 
+    Postavljanjem ljepila direktno bez fasadne mrežice, može doći do puknuća fasade čak i kod modernih fasadnih sistema. 
+    Staklena mrežica ugrađuje se čitavom površinom u sloj građevinskog ljepila. 
+    Mrežice su dostupne u različitim izvedbama, a razlikuju se u snazi plastičnih vlakana i rezultirajućoj veličini mrežice.',
+
+    'energy_coefficient' => 'KOEFICIJENT PROLASKA TOPLOTE KROZ ZIDOVE',
+    'wall_without_insulation' => 'ZID BEZ IZOLACIJE',
+    'wall_with_insulation' => 'ZID SA IZOLACIJOM',
+    'wal_insulation_description' => 'Navedene ilustracije prikazuju gubljenje toplote kroz zid sa izolacijom i bez izolacije. Ovdje možemo zaključiti da kod zidova sa EPS i zolacijom dolazi do velike uštede energije za grijanje. 
+    Najbitnije svojstvo izolacijskog materijala je mala vrijednost koeficijenta toplinske provodljivosti λ(W/mK). Koeficijent toplinske provodljivosti predstavlja količinu topline koja prođe u jedinici vremena kroz sloj materijala površine 1m2.',
+    'facade_system' => 'Fasadni sistem',
+    'facade_construction' => 'KONSTRUKCIJA FASADE',
+
+    'facade_description' => 'Fasadni sistem toplotne izolacije je sistem za izolaciju vanjskog zida kuće. Čitava fasada zgrade poznata je i kao k ompozitna termalna fasada. Fasadni sistem se sastoji od EPS p loča koje su zalijepljene ili pričvršćene građevinskim ljepilom na vanjski zid. Na ovaj izolacijski sloj postavlja se mrežica sa ljepilom za EPS. Mrežica osigurava da kasnije ne dođe do puknuća žbuka zbog ekspanzijskih naprezanja u površini ili manjih
+    pomjeranja. Nakon toga slijedi sloj p odloge za poravnanje i na kraju vanjska žbuka.
+    Komponente fasadnog sistema su koordinirane. Stoga se sistem može upotrijebiti samo kao cjelovit. Ovakvi sistemi za toplotnu izolaciju mogu se postaviti na gotovo svim čvrstim podlogama koje se sastoje od zida ili be tona. Osnovni uvjet je, međutim, da je p ovršina čvrsta, suha, bez masnoće i prašine.',
+
+    'examination' => 'ISPITIVANJE',
+    'quality1' => 'KVALITETE',
+    'eps_quality' => 'Kroz svoju dugu historiju, firma CIVIĆ d.o.o je davala veliki značaj kontroli kvalitete svojih proizvoda.
+    Sa linijom THERMOPOR proizvoda stepen kvalitete je podignut na još veći nivo. 
+    U laboratoriju za kontrolu se svakodnevno vrše kontrole i mjerenja u skladu sa navedenim evropskim standardima.',
+    'quality_test1' => 'Testiranje dimenzija',
+    'quality_test2' => 'Testiranje mehaničkih svojstava',
+    'quality_test3' => 'Ispitivanje toplotnih svojstava',
+    'quality_test4' => 'Ispitivanje reakcije na požar',
+    'quality_standard' => 'EN 13163',
+    'quality_standard_description' => 'Ovaj europski standard određuje specifikacije za tvornički
+    izrađene stiropor proizvode, koji se koriste za toplinsku
+    izolaciju zgrada. Ova norma opisuje karakteristike proizvoda i
+    uključuje postupke ispitivanja, ocjenjivanja sukladnosti,
+    obilježavanja i označavanja.',
+
+    'eps' => 'EKSPANDIRANI POLISTIREN',
+    'styropor' => 'Stiropor je pretežno zatvorena, tvrda pjena, 
+    proizvedena toplotnom obradom ekspandibilnog 
+    polistirenskog granulata (EPS). 
+    Sadrži 98% zraka, preostala dva posto je polistiren, koji okružuje zrak. To čini stiropor izuzetno laganim, pruža 
+    odličnu izolaciju protiv vrućine i hladnoće i 
+    otporan je na mehaničke i hemijske uticaje. 
+    Stoga se stiropor s pravom često naziva „biser među plastikom“.
+    Polazni materijal u proizvodnji stiropora je stiren. 
+    Godine 1831. prvi put je izolovan od kore drveća. 
+    Danas se stiren proizvodi od nafte. 
+    U klasičnoj suspenzerskoj polimerizaciji miješaju se voda i stiren. Uz dodatak pentana formira se granulat u obliku bisera, odnosno proširivi polistiren. 
+    Kada se ove EPS kuglice zagrijavaju vodenom parom, šire se do otprilike 50 puta više od njihove originalne veličine. Nakon međuprostornog skladištenja, pjenaste kuglice se pune u blok kalupe i lijepe jedna uz drugu 
+    ponovnim zagrijavanjem sa vodenom parom. Rezultirajući blok polistirena reže se u ploče nakon određenog perioda skladištenja.',
+    
+    'eps_characteristic' => '100% obnovljiv, izdržljiv, jeftin, praktičan',
+    'eps_advantages_price' => 'Niska cijena',
+    'eps_advantages_price_description' => 'U odnosu na druge krute izolacije, EPS je bez sumnje 
+    najisplativiji. EPS ima odličan omjer troškova i performansi 
+    što rezultira niskim troškovnim dizajnom bez narušavanja 
+    toplinskih svojstava.',
+    'eps_advantages_water' => 'Vodootpornost',
+    'eps_advantages_water_description' => 'EPS ima zatvorenu ćelijskustrukturu, što znači da nanjegova 
+    mehanička i termičkasvojstva ne utiče vlaga teograničava 
+    apsorpciju vode. ',
+    'eps_advantages_insulation' => 'Savršena izolacija',
+    'eps_advantages_insulation_description' => 'Struktura ekspandiranog polistirena (EPS-a) 
+    čini ga veoma jednostavnim i učinkovitim izolatorom.',
+    'eps_advantages_secure' => 'Siguran za upotrebu',
+    'eps_advantages_secure_description' => 'EPS je netoksičan, hemijski inertan, ne nadražuje i bez mirisa
+    je, što ga čini potpuno sigurnim za upotrebu u svim građevinskim aplikacijama.',
+    'eps_advantages_lightness' => 'Lakoća',
+    'eps_advantages_lightness_description' => 'EPS je izuzetno lagan materijal jer se sastoji od otprilike 
+    98% zraka i samo 2% plastike. EPS je jednostavniji za 
+    transport i ekološki prihvatljiviji od ostalih materijala.',
+    'eps_advantages_install' => 'Jednostavan za instalaciju',
+    'eps_advantages_install_description' => 'EPS je lagan, pa se samim timi lako postavlja bez potrebe za
+    specijalnom opremom ili vještinama. EPS se može rezati na licu 
+    mjesta pomoću ručne testere ili rezača s vrućom žicom.',
+
+    'eps_advantages_firmness' => 'Čvrstoća',
+    'eps_advantages_firmness_description' => 'Uprkos laganoj težini, jedinstvena struktura EPS-a donosi prednost vrhunske čvrstoće na pritisak.To znači da je idealan za upotrebu u mnogim aplikacijama za građevinarstvo.',
+    'eps_advantages_self-extinguishing' => 'Samogasiv',
+    'eps_advantages_self-extinguishing_description' => 'EPS je samogasiv i teško zapaljiv materijal. Specificiran sa 
+    vodootpornim dodatkom (FRA), postiže visoku klasifikaciju reakcije 
+    na požar, Euroklasa E.',
+
+    'eps_advantages_durability' => 'Trajnost',
+    'eps_advantages_durability_description' => 'EPS je izdržljiv, otporan na truljenje i trajni je materijal.
+    Ako je pravilno postavljen i instaliran, ostati će djelotvoran
+    tijekom 100-godišnjeg životnog ciklusa.',
+    'eps_advantages_tenable' => 'Održiv',
+    'eps_advantages_tenable_description' => 'EPS ima nulti po tencijal iscrpljivanja ozonskog omotača i nizak 
+    potencijal globalnog zagrijavanja, a istovremeno je 100% recikliran 
+    u mnogim fazama svog životnog ciklusa.',
+    'eps_advantages_pearl' => 'biser među plastikom',
+
+    'styropor_petroleum' => 'Stiropor je naftni proizvod, ali zahtijeva izuzetno
+    malo ove sirovine, jer se sastoji od 98% zraka i samo
+    2% polistirena. Tijekom životnog vijeka proizvoda
+    može se uštedjeti do 200 litara lož-ulja sa svakom
+    litrom nafte iz koje se stiropor proizvede i iskoristi za
+    izoliranje zgrada. Tako da je od nafte veća korist ako
+    se od nje proizvodi izolacijski materijal!',
+
+
 ];
