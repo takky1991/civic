@@ -41,6 +41,7 @@ Route::multilingual('article1', 'ArticlesController@article1')->name('article1')
 
 // EPS
 Route::multilingual('termopor', 'EpsController@termopor')->name('termopor');
+Route::multilingual('eps-products', 'EpsController@products')->name('eps_products');
 Route::multilingual('eps-advantages', 'EpsController@advantages')->name('eps_advantages');
 Route::multilingual('eps-quality', 'EpsController@quality')->name('eps_quality');
 Route::multilingual('eps-facade-system', 'EpsController@facadeSystem')->name('eps_facade_system');

@@ -30,6 +30,7 @@ return [
     'paneling' => 'lamperija',
     'article1' => 'cestitka-povodom-novogodisnjih-praznika',
     'about-us' => 'o-nama',
+    'eps-products' => 'eps-proizvodi',
     'eps-advantages' => 'eps-prednosti',
     'eps-quality' => 'eps-kvaliteta',
     'eps-facade-system' => 'eps-fasadni-sistem',

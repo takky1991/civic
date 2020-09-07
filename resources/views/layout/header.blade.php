@@ -215,6 +215,7 @@
                 </li>
                 <li class="nav-item dropdown hover {{(
                         explode('.', request()->route()->getName())[1] == 'termopor' ||
+                        explode('.', request()->route()->getName())[1] == 'eps_products' ||
                         explode('.', request()->route()->getName())[1] == 'eps_advantages' ||
                         explode('.', request()->route()->getName())[1] == 'eps_quality' ||
                         explode('.', request()->route()->getName())[1] == 'eps_facade_system' ||
@@ -231,7 +232,7 @@
                     <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
                         <li class="dropdown-submenu hover custom">
-                            <a id="dropdownMenu5" href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
+                            <a id="dropdownMenu5" href="{{localized_route('eps_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
                             <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
                                 <a class="dropdown-item" href="{{localized_route('eps_f60')}}">
                                     <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-Economic F60">

@@ -30,6 +30,7 @@ return [
     'paneling' => 'paneling',
     'article1' => 'cestitka-povodom-novogodisnjih-praznika',
     'about-us' => 'about-us',
+    'eps-products' => 'eps-products',
     'eps-advantages' => 'eps-advantages',
     'eps-quality' => 'eps-quality',
     'eps-facade-system' => 'eps-facade-system',

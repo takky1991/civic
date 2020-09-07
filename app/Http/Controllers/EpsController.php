@@ -37,6 +37,28 @@ class EpsController extends Controller
         return view('eps/termopor');
     }
 
+    public function products()
+    {
+        $breadcrumbs = [
+            [
+                'label' => __('general.home'),
+                'link' => localized_route('home')
+            ],
+            [
+                'label' => __('general.termopor'),
+                'link' => localized_route('termopor')
+            ],
+            [
+                'label' => __('general.products'),
+                'link' => localized_route('eps_products')
+            ]
+        ];
+
+        $this->setBreadcrumbs($breadcrumbs);
+
+        return view('eps/products');
+    }
+
     public function advantages()
     {
         $breadcrumbs = [
