@@ -231,6 +231,9 @@
                     <a id="dropdownMenu4" href="{{localized_route('termopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
                     <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
+                        <li>
+                            <a href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.termopor')}}</a>
+                        </li>
                         <li class="dropdown-submenu hover custom">
                             <a id="dropdownMenu5" href="{{localized_route('eps_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
                             <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
