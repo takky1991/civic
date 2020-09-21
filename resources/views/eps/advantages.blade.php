@@ -6,157 +6,123 @@
         @include('eps/sidebar')
     </div>
 
-    <div class="col-lg-8 order-1 order-lg-2">
-        <div class="container eps">
+    <div class="advantages col-lg-8 order-1 order-lg-2">
+        <div class="container">
             <h1>EPS</h1>
             <h3>{{__('general.eps')}}</h3>
             <p>{{__('general.styropor')}}</p> 
             <h4>{{__('general.eps_characteristic')}}</h4>
         </div>
 
-        <div class="row">
+        <div class="points row">
             <div class="col-md-6">
-                    <div class="row advantage">
-                        <h3>
-                            <img src="{{asset('img/eps/advantages/money.png')}}" lazy="loaded" style="width: 50px;">
-                            {{__('general.eps_advantages_price')}}
-                        </h3>
-                    </div>
-                    <div class="row advantage">
-                        <p>{{__('general.eps_advantages_price_description')}}</p>
-                    </div>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/money.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_price')}}</span>          
+                </div>
+                <div class="row">
+                    <p>{{__('general.eps_advantages_price_description')}}</p>
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="column advantage">
-                    <h3>
-                        <img src="{{asset('img/eps/advantages/drop.png')}}" lazy="loaded" style="width: 50px;">
-                        {{__('general.eps_advantages_water')}}
-                    </h3>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/drop.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_water')}}</span>     
                 </div>
-                <div class="column advantage">
+                <div class="row">
                     <p>{{__('general.eps_advantages_water_description')}}</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-6">
-                    <div class="row advantage">
-                        <h3>
-                            <img src="{{asset('img/eps/advantages/insulation.png')}}" lazy="loaded" style="width: 50px;">
-                            {{__('general.eps_advantages_insulation')}}
-                        </h3>
-                    </div>
-                    <div class="row advantage">
-                        <p>{{__('general.eps_advantages_insulation_description')}}</p>
-                    </div>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/insulation.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_insulation')}}</span>     
+                </div>
+                <div class="row">
+                    <p>{{__('general.eps_advantages_insulation_description')}}</p>
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="column advantage">
-                    <h3>
-                        <img src="{{asset('img/eps/advantages/hand.png')}}" lazy="loaded" style="width: 50px;">
-                        {{__('general.eps_advantages_secure')}}
-                    </h3>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/hand.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_secure')}}</span> 
                 </div>
-                <div class="column advantage">
+                <div class="row">
                     <p>{{__('general.eps_advantages_secure_description')}}</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-6">
-                    <div class="row advantage">
-                        <h3>
-                            <img src="{{asset('img/eps/advantages/writer.png')}}" lazy="loaded" style="width: 50px;">
-                            {{__('general.eps_advantages_lightness')}}
-                        </h3>
-                    </div>
-                    <div class="row advantage">
-                        <p>{{__('general.eps_advantages_lightness_description')}}</p>
-                    </div>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/writer.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_lightness')}}</span> 
+                </div>
+                <div class="row">
+                    <p>{{__('general.eps_advantages_lightness_description')}}</p>
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="column advantage">
-                    <h3>
-                        <img src="{{asset('img/eps/advantages/constructor.png')}}" lazy="loaded" style="width: 50px;">
-                        {{__('general.eps_advantages_install')}}
-                    </h3>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/constructor.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_install')}}</span> 
                 </div>
-                <div class="column advantage">
+                <div class="row">
                     <p>{{__('general.eps_advantages_install_description')}}</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-6">
-                    <div class="row advantage">
-                        <h3>
-                            <img src="{{asset('img/eps/advantages/diamond.png')}}" lazy="loaded" style="width: 50px;">
-                            {{__('general.eps_advantages_firmness')}}
-                        </h3>
-                    </div>
-                    <div class="row advantage">
-                        <p>{{__('general.eps_advantages_firmness_description')}}</p>
-                    </div>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/diamond.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_firmness')}}</span> 
+                </div>
+                <div class="row">
+                    <p>{{__('general.eps_advantages_firmness_description')}}</p>
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="column advantage">
-                    <h3>
-                        <img src="{{asset('img/eps/advantages/fire.png')}}" lazy="loaded" style="width: 50px;">
-                        {{__('general.eps_advantages_self-extinguishing')}}
-                    </h3>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/fire.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_self-extinguishing')}}</span> 
                 </div>
-                <div class="column advantage">
+                <div class="row">
                     <p>{{__('general.eps_advantages_self-extinguishing_description')}}</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-6">
-                    <div class="row advantage">
-                        <h3>
-                            <img src="{{asset('img/eps/advantages/link.png')}}" lazy="loaded" style="width: 50px;">
-                            {{__('general.eps_advantages_durability')}}
-                        </h3>
-                    </div>
-                    <div class="row advantage">
-                        <p>{{__('general.eps_advantages_durability_description')}}</p>
-                    </div>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/link.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_durability')}}</span> 
+                </div>
+                <div class="row">
+                    <p>{{__('general.eps_advantages_durability_description')}}</p>
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="column advantage">
-                    <h3>
-                        <img src="{{asset('img/eps/advantages/recycling.png')}}" lazy="loaded" style="width: 50px;">
-                        {{__('general.eps_advantages_tenable')}}
-                    </h3>
+                <div class="row">
+                    <span><img src="{{asset('img/eps/advantages/recycling.png')}}" class="img-fluid testing-img" alt="Responsive image"></span>
+                    <span class="advantage">{{__('general.eps_advantages_tenable')}}</span> 
                 </div>
-                <div class="column advantage">
+                <div class="row">
                     <p>{{__('general.eps_advantages_tenable_description')}}</p>
                 </div>
             </div>
         </div>
 
-        <div class="container pearl" style="padding-top: 50px;">
+        <div class="row pearl">
             <h4>{{__('general.eps_advantages_pearl')}}</h4>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 pearl">
-                <img src="{{asset('img/eps/advantages/granule.jpg')}}" class="img-fluid testing-img" alt="Responsive image" style="width: 400px;">
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{asset('img/eps/advantages/granule.jpg')}}" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-md-6 graf">
+                    <img src="{{asset('img/eps/advantages/prosjek_materijala.png')}}" lazy="loaded">
+                    <img src="{{asset('img/eps/advantages/debljina_materijala.png')}}" lazy="loaded">
+                </div>
             </div>
-            <div class="col-md-6 graf">
-                <img src="{{asset('img/eps/advantages/prosjek_materijala.png')}}" lazy="loaded" style="width:220px">
-                <img src="{{asset('img/eps/advantages/debljina_materijala.png')}}" lazy="loaded" style="width: 220px;">
+
+            <div class="row">
+                <p>{{__('general.styropor_petroleum')}}</p> 
             </div>
-        </div>
-
-    
-
-        <div class="row styropor">
-            <p>{{__('general.styropor_petroleum')}}</p> 
         </div>
 
     </div>

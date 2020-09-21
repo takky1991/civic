@@ -285,12 +285,12 @@ return [
     'eps_advantages' => 'Prednosti EPS-a',
     'quality' => 'Kvaliteta',
     'facade_system' => 'Fasadni sistem',
-    'energy_saving' => 'Ušteda energije!',
+    'energy_saving' => 'Ušteda energije',
     'other_products' => 'Ostali proizvodi',
     'termopor_products' => 'Termopor proizvodi',
     'facade_insulation' => 'Izolacija fasada',
     'attic_insulation' => 'Izolacija potkrovlja',
-    'floor_insulation' => 'Izolacija podova',
+    'floor_insulation' => 'Izolacija plivajućih podova',
     'high_load_insulation' => 'Izolacija površina sa velikim opterećenjem',
     'eps_f60' => 'EPS-Economic F60',
     'eps_70' => 'EPS-70',
@@ -298,6 +298,12 @@ return [
     'eps_100' => 'EPS-100',
     'eps_150' => 'EPS-150',
     'eps_200' => 'EPS-200',
+
+
+    // THERMOPOR -  Other Products
+    'fibran' => 'Partnerski brend',
+    'mesh' => 'Mrežica',
+    'facade_glass' => 'Fasadna staklena',
 
     'fibran_xps_description' => 'FIBRANxps su toplotni izolacijski materijali od polistirenske pjene. 
     Odlikuju se visokim i dugotrajnim termoizolacijskim svojstvima, minimalnom apsorpcijom vode, visokom čvrstoćom na kompresiju i dimenzijskom stabilnošću. 
@@ -323,15 +329,27 @@ return [
     pomjeranja. Nakon toga slijedi sloj p odloge za poravnanje i na kraju vanjska žbuka.
     Komponente fasadnog sistema su koordinirane. Stoga se sistem može upotrijebiti samo kao cjelovit. Ovakvi sistemi za toplotnu izolaciju mogu se postaviti na gotovo svim čvrstim podlogama koje se sastoje od zida ili be tona. Osnovni uvjet je, međutim, da je p ovršina čvrsta, suha, bez masnoće i prašine.',
 
-    'examination' => 'ISPITIVANJE',
-    'quality1' => 'KVALITETE',
+    // Quality 
+
+    'quality' => 'Kvaliteta',
     'eps_quality' => 'Kroz svoju dugu historiju, firma CIVIĆ d.o.o je davala veliki značaj kontroli kvalitete svojih proizvoda.
     Sa linijom THERMOPOR proizvoda stepen kvalitete je podignut na još veći nivo. 
     U laboratoriju za kontrolu se svakodnevno vrše kontrole i mjerenja u skladu sa navedenim evropskim standardima.',
+
     'quality_test1' => 'Testiranje dimenzija',
+    'quality_test1_desc' => 'Sistem za određivanjegeometrijskih karakteristika toplinske izolacije prema EN822, EN823, EN824 i EN825 standardima.',
+
     'quality_test2' => 'Testiranje mehaničkih svojstava',
+    'quality_test2_desc' => 'Kidalica za ispitivanje mehaničkih svojstava izolacionih materijala prema EN13163, EN13164, 
+    EN826, EN1607, EN12089 i EN12090 standardima.',
+
     'quality_test3' => 'Ispitivanje toplotnih svojstava',
+    'quality_test3_desc' => 'Uređaj za mjerenje toplotne provodljivosti prema ISO8301, EN12667, EN12939 i ASTMC518 standardima.',
+
     'quality_test4' => 'Ispitivanje reakcije na požar',
+    'quality_test4_desc' => 'Sistem se koristi za određivanje reakcije na požar, kod materijala izloženog plamenu.
+    Reakcija materijala na plamen praćena je vizualno i pomoću instrumenata.',
+
     'quality_standard' => 'EN 13163',
     'quality_standard_description' => 'Ovaj europski standard određuje specifikacije za tvornički
     izrađene stiropor proizvode, koji se koriste za toplinsku
@@ -404,5 +422,56 @@ return [
     izoliranje zgrada. Tako da je od nafte veća korist ako
     se od nje proizvodi izolacijski materijal!',
 
+    'thermopor_products' => 'Primjena THERMOPOR proizvoda',
+    'thermopor_usage' => 'stropovi, krovovi, zidovi, podovi',
+    'future' => 'SPREMNI ZA BUDUĆNOST',
+
+    'product_F60' => 'EPS - Fasadni economic',
+    'product_use_facade' => 'Toplotna izolacija fasada',
+    'F60_description' => 'EPS F60 ECONOMIC je ekspandirani polistiren sa umjereno trajnošću opterećenja, pa se kao takva koristi za 
+    toplinsku izolaciju na fasadama.',
+
+    'product_eps_technical' => 'Tehničke karakteristike',
+
+    'product_eps_conductivity_desc' => 'Toplinska provodljivost',
+    'product_eps_conductivity_value' => '0,040 W/mk',
+
+    'product_eps_fire_desc' => 'Klasa reakcije na požar',
+    'product_eps_fire_value' => 'Euroklasa E',
+
+    'product_eps_firmness_desc' => 'Tlačna čvrstoća',
+    'product_eps_firmness_value' => '≥60 kPa (10% def.)',
+
+    'product_eps_standard_desc' => 'Standard',
+    'product_eps_standard_value' => 'BAS EN 13163',
+
+    'product_eps_flexural_strength_desc' => 'Savojna čvrstoća',
+    'product_eps_flexural_strength_value' => '≥100 kPa',
+
+    'product_eps_dimensions_desc' => 'Dimenzije ploče',
+    'product_eps_dimensions_value' => '100 x 50 cm',
+
+    'product_eps_water_absorption_desc' => 'Dugotrajno upijanje vode',
+    'product_eps_water_absorption_value' => '≤5%',
+
+    'product_eps_marking_desc' => 'Oznaka na rubu ploče',
+    'product_eps_marking_value' => 'Dvije crvene linije',
+
+    'product_eps_usage' => 'UPOTREBA I PREDNOSTI',
+
+    // Thermopor product page usage - EPS FE60
+    'eps_product_usage_F60_1' => 'Izoliranje vanjskih i unutrašnjih zidova u skeletnim konstrukcijama.',
+    'eps_product_usage_F60_2' => 'Hemijska izdržljivost protiv kiselina, alkalija i tečnosti sa slanom vodom.',
+    'eps_product_usage_F60_3' => 'Višeslojna izolacija vanjskih zidova.',
+    'eps_product_usage_F60_4' => 'Veliki raspon debljina koje omogućavaju odabir najefikasnijeg rješenja za toplinsku izolaciju.',
+    'eps_product_usage_F60_5' => 'Veličine tokom vremena upotrebe ostaju nepromijenjene. 
+    Smanjuju troškove toplotne izolacije u strukturama sa malterisanim fasadama.',
+    'eps_product_usage_F60_6' => 'Vrlo lagan proizvod, jednostavan za sklapanje, bez opterećenja na strukturu objekta.',
+
+    'product_eps_assembly' => 'MONTAŽA & PAKOVANJE',
+
+    'name' => 'NAZIV',
+    'thermal_resistance' => 'TOPLINSKA OTPORNOST',
+    'm2/pack' => 'm2/pak',
 
 ];

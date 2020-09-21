@@ -65,3 +65,7 @@
         </li>
     </ul>
 </div>
+
+<div class="thermopor-sidebar-logo order-1 order-lg-2">
+    <a href="{{localized_route('eps_products')}}"><img src="{{asset('img/thermopor_logo.png')}}" class="img-fluid" alt="Responsive image"></a>
+</div>

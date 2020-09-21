@@ -20,7 +20,7 @@
       
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="{{localized_route('home')}}"><img src="{{asset('img/civic_logo.png')}}" style="width:250px" alt="civic group logo"></a>
+        <a class="navbar-brand" href="{{localized_route('home')}}"><img class="logo" src="{{asset('img/civic_logo.png')}}" style="width:250px" alt="civic group logo"></a>
 
         <div class="d-inline d-lg-none">
             {{-- <span class="navbar-text flags">
@@ -337,6 +337,6 @@
             </span> --}}
         </div>
 
-        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
+        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:160px" alt="EPS"></a>
     </div>
 </nav>
