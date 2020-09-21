@@ -21,19 +21,6 @@ class EpsController extends Controller
         //     ->set('og:title', __('meta.contact_title'))
         //     ->set('og:description', __('meta.contact_description'));
 
-        $breadcrumbs = [
-            [
-                'label' => __('general.home'),
-                'link' => localized_route('home')
-            ],
-            [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
-            ]
-        ];
-
-        $this->setBreadcrumbs($breadcrumbs);
-
         return view('eps/termopor');
     }
 
