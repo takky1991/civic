@@ -337,6 +337,6 @@
             </span> --}}
         </div>
 
-        <a href="{{localized_route('termopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:160px" alt="EPS"></a>
+        <a href="{{localized_route('eps_products')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:160px" alt="EPS"></a>
     </div>
 </nav>

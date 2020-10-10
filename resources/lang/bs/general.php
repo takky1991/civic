@@ -426,6 +426,8 @@ return [
     'thermopor_usage' => 'stropovi, krovovi, zidovi, podovi',
     'future' => 'SPREMNI ZA BUDUĆNOST',
 
+    // Thermopor product page usage - EPS FE60
+
     'product_F60' => 'EPS - Fasadni economic',
     'product_use_facade' => 'Toplotna izolacija fasada',
     'F60_description' => 'EPS F60 ECONOMIC je ekspandirani polistiren sa umjereno trajnošću opterećenja, pa se kao takva koristi za 
@@ -434,32 +436,31 @@ return [
     'product_eps_technical' => 'Tehničke karakteristike',
 
     'product_eps_conductivity_desc' => 'Toplinska provodljivost',
-    'product_eps_conductivity_value' => '0,040 W/mk',
+    'product_eps60_conductivity_value' => '0,040 W/mk',
 
     'product_eps_fire_desc' => 'Klasa reakcije na požar',
-    'product_eps_fire_value' => 'Euroklasa E',
+    'product_eps60_fire_value' => 'Euroklasa E',
 
     'product_eps_firmness_desc' => 'Tlačna čvrstoća',
-    'product_eps_firmness_value' => '≥60 kPa (10% def.)',
+    'product_eps60_firmness_value' => '≥60 kPa (10% def.)',
 
     'product_eps_standard_desc' => 'Standard',
-    'product_eps_standard_value' => 'BAS EN 13163',
+    'product_eps60_standard_value' => 'BAS EN 13163',
 
     'product_eps_flexural_strength_desc' => 'Savojna čvrstoća',
-    'product_eps_flexural_strength_value' => '≥100 kPa',
+    'product_eps60_flexural_strength_value' => '≥100 kPa',
 
     'product_eps_dimensions_desc' => 'Dimenzije ploče',
-    'product_eps_dimensions_value' => '100 x 50 cm',
+    'product_eps60_dimensions_value' => '100 x 50 cm',
 
     'product_eps_water_absorption_desc' => 'Dugotrajno upijanje vode',
-    'product_eps_water_absorption_value' => '≤5%',
+    'product_eps60_water_absorption_value' => '≤5%',
 
     'product_eps_marking_desc' => 'Oznaka na rubu ploče',
-    'product_eps_marking_value' => 'Dvije crvene linije',
+    'product_eps60_marking_value' => 'Dvije crvene linije',
 
     'product_eps_usage' => 'UPOTREBA I PREDNOSTI',
 
-    // Thermopor product page usage - EPS FE60
     'eps_product_usage_F60_1' => 'Izoliranje vanjskih i unutrašnjih zidova u skeletnim konstrukcijama.',
     'eps_product_usage_F60_2' => 'Hemijska izdržljivost protiv kiselina, alkalija i tečnosti sa slanom vodom.',
     'eps_product_usage_F60_3' => 'Višeslojna izolacija vanjskih zidova.',
@@ -474,4 +475,141 @@ return [
     'thermal_resistance' => 'TOPLINSKA OTPORNOST',
     'm2/pack' => 'm2/pak',
 
-];
+
+
+    // Thermopor product page usage - EPS 70
+
+    'eps70_usage' => 'Toplotna izolacija potkrovlja',
+    'eps70_desc' => 'EPS 70 je polistirenska pjena sa
+    niskom trajnošću opterećenja, pa se kao
+    takva koristi za toplinsku izolaciju ispod
+    crijep ploče i drugih pokrivnih
+    materijala, lamperije i sl.',
+
+        // Technical
+    'product_eps70_conductivity_value' => '0,040 W/mk',
+    'product_eps70_fire_value' => 'Euroklasa E',
+    'product_eps70_firmness_value' => '≥70 kPa (10% def.)',
+    'product_eps70_standard_value' => 'BAS EN 13163',
+    'product_eps70_flexural_strength_value' => '≥115 kPa',
+    'product_eps70_dimensions_value' => '100 x 50 cm',
+    'product_eps70_water_absorption_value' => '≤5%',
+    'product_eps70_marking_value' => 'Plava linija',
+    
+        // Usage
+    'eps_product_usage_70_1' => 'Toplotna izolacija krovova i stropova. Izolacija krovnih ploča. Može koristiti za izgradnju kosog krova.',
+    'eps_product_usage_70_2' => 'EPS 70 nosi opterećenja od preko 50 kPa, što se ne može postići izolacijom od vune.',
+    'eps_product_usage_70_3' => 'Vodootporan materijal, koji se ne natapa, kiša i snijeg ne oštećuju karakteristike materijala tokom gradnje. Nije potrebno sušiti materijal prije postavljanja.',
+    'eps_product_usage_70_4' => 'Lagan izolacijski materijal koji se lako transportira i postavlja na krovne stropove.',
+    'eps_product_usage_70_5' => 'Preporučena debljina izolacije u krovnim konstrukcijama je minimalno 16 cm.',
+    'eps_product_usage_70_6' => 'Izolacijski materijal mora biti zaštićena sa dvije folije: sa gornje strane sa kondenz folijom, a sa donje strane sa parnom branom.',
+    
+
+    // Thermopor product page usage - EPS F80
+    'product_F80' => 'EPS - Fasadni',
+    'epsF80_usage' => 'Toplotna izolacija fasada',
+    'epsF80_desc' => 'EPS F80 je ekspandirani polistiren sa umjerenom trajnošću opterećenja koji se koristi kao toplotna izolacija za fasade.',
+        // Technical
+    'product_epsF80_conductivity_value' => '0,038 W/mk',
+    'product_epsF80_fire_value' => 'Euroklasa E',
+    'product_epsF80_firmness_value' => '≥80 kPa (10% def.)',
+    'product_epsF80_standard_value' => 'BAS EN 13163',
+    'product_epsF80_flexural_strength_value' => '≥125 kPa',
+    'product_epsF80_dimensions_value' => '100 x 50 cm',
+    'product_epsF80_water_absorption_value' => '≤5%',
+    'product_epsF80_marking_value' => 'Crvena linija',
+        // Usage
+    'eps_product_usage_F80_1' => 'Zbog umjerene trajnosti opterećenja može se koristiti kao termoizolacija kod unutrašnjih zidova kao i kod kosih krovova.',
+    'eps_product_usage_F80_2' => 'Višeslojna izolacija vanjskih zidova.',
+    'eps_product_usage_F80_3' => 'Veličine tokom vremena upotrebe ostaju nepromijenjene. Smanjuju troškove toplotne izolacije u strukturama sa malterisanim fasadama.',
+    'eps_product_usage_F80_4' => 'Hemijska izdržljivost protiv kiselina, alkalija i tečnosti sa slanom vodom.',
+    'eps_product_usage_F80_5' => 'Veliki raspon debljina koji omogućava odabir najefikasnijeg rješenja za toplinsku izolaciju.',
+    'eps_product_usage_F80_6' => 'Vrlo lagan proizvod, jednostavan za sklapanje, bez opterećenja na strukturu objekta.',
+
+      // Thermopor product page usage - EPS F80
+    'product_F80' => 'EPS - Fasadni',
+    'epsF80_usage' => 'Toplotna izolacija fasada',
+    'epsF80_desc' => 'EPS F80 je ekspandirani polistiren sa umjerenom trajnošću opterećenja koji se koristi kao toplotna izolacija za fasade.',
+        // Technical
+    'product_epsF80_conductivity_value' => '0,038 W/mk',
+    'product_epsF80_fire_value' => 'Euroklasa E',
+    'product_epsF80_firmness_value' => '≥80 kPa (10% def.)',
+    'product_epsF80_standard_value' => 'BAS EN 13163',
+    'product_epsF80_flexural_strength_value' => '≥125 kPa',
+    'product_epsF80_dimensions_value' => '100 x 50 cm',
+    'product_epsF80_water_absorption_value' => '≤5%',
+    'product_epsF80_marking_value' => 'Crvena linija',
+        // Usage
+    'eps_product_usage_F80_1' => 'Zbog umjerene trajnosti opterećenja može se koristiti kao termoizolacija kod unutrašnjih zidova kao i kod kosih krovova.',
+    'eps_product_usage_F80_2' => 'Višeslojna izolacija vanjskih zidova.',
+    'eps_product_usage_F80_3' => 'Veličine tokom vremena upotrebe ostaju nepromijenjene. Smanjuju troškove toplotne izolacije u strukturama sa malterisanim fasadama.',
+    'eps_product_usage_F80_4' => 'Hemijska izdržljivost protiv kiselina, alkalija i tečnosti sa slanom vodom.',
+    'eps_product_usage_F80_5' => 'Veliki raspon debljina koji omogućava odabir najefikasnijeg rješenja za toplinsku izolaciju.',
+    'eps_product_usage_F80_6' => 'Vrlo lagan proizvod, jednostavan za sklapanje, bez opterećenja na strukturu objekta.',
+
+    // Thermopor product page usage - EPS 100
+    'eps100_usage' => 'Toplotna izolacija plivajućih podova',
+    'eps100_desc' => 'EPS 100 se koristi kao toplinska izolacija kod plivajućih podova, neprohodnih, ravnih krovova, terasa, te umjereno opterećenih podova.',
+        // Technical
+    'product_eps100_conductivity_value' => '0,038 W/mk',
+    'product_eps100_fire_value' => 'Euroklasa E',
+    'product_eps100_firmness_value' => '≥100 kPa (10% def.)',
+    'product_eps100_standard_value' => 'BAS EN 13163',
+    'product_eps100_flexural_strength_value' => '≥150 kPa',
+    'product_eps100_dimensions_value' => '100 x 50 cm',
+    'product_eps100_water_absorption_value' => '≤5%',
+    'product_eps100_marking_value' => 'Žuta linija',
+        // Usage
+    'eps_product_usage_100_1' => 'Upotreba kod umjereno opterećenih podnih konstrukcija, izolacija ispod betona u privatnim kućama, stanovima, javnim ustanovama.',
+    'eps_product_usage_100_2' => 'Materijal nosi opterećenja do 100 kPa.',
+    'eps_product_usage_100_3' => 'Voda i vlaga u betonu ne oštećuju karakteristike proizvoda.',
+    'eps_product_usage_100_4' => 'Podovi se mogu izraditi na površini materijala.',
+    'eps_product_usage_100_5' => 'Jednostavan za instalaciju, moguće je koristiti velike ploče.',
+    'eps_product_usage_100_6' => 'EPS 100 ima malu gustoću sa dovoljno dobrom nosivosti.',
+
+    // Thermopor product page usage - EPS 150
+    'eps150_usage' => 'Toplotna izolacija površina sa velikim opterećenjem',
+    'eps150_desc' => 'EPS 150 je dizajniran za izolaciju podova. Proizvod je pogodan za izolaciju podnih konstrukcija sa velikim opterećenjem. Koristi se kao toplinska izolacija plivajućih podova, ravnih krovova, terasa, skladišta, garaža, parkirališta i sl.',
+        // Technical
+    'product_eps150_conductivity_value' => '0,035 W/mk',
+    'product_eps150_fire_value' => 'Euroklasa E',
+    'product_eps150_firmness_value' => '≥150 kPa (10% def.)',
+    'product_eps150_standard_value' => 'BAS EN 13163',
+    'product_eps150_flexural_strength_value' => '≥200 kPa',
+    'product_eps150_dimensions_value' => '100 x 50 cm',
+    'product_eps150_water_absorption_value' => '≤2%',
+    'product_eps150_marking_desc' => 'Oznaka',
+    'product_eps150_marking_value' => 'Isprekidana žuta i žuta linija',
+        // Usage
+    'eps_product_usage_150_1' => 'EPS 150 ima malu gustoću sa dovoljno dobrom nosivosti.Materijal nosi opterećenja do 150 kPa.',
+    'eps_product_usage_150_2' => 'Voda i vlaga u betonu ne oštećuju karakteristike. Dugotrajno upijanje vode ispod 2%.',
+    'eps_product_usage_150_3' => 'Može podnijeti veliki pritisak tla. Podovi se mogu izraditi na površini EPS-a 150.',
+    'eps_product_usage_150_4' => 'Prema statistici, 10-15% toplotne energije se gubi kroz temelje. Zbog toga je izolacija i stvaranje temelja vodootpornim vrlo važno tijekom gradnje.',
+    'eps_product_usage_150_5' => 'EPS 150 se može koristi i u izgradnji temelja, kao i unutrašnjih i vanjskih zidova podruma.',
+    'eps_product_usage_150_6' => 'EPS 150 ploče od stiropora su toplotni izolatori, vodootporne i podnose opterećenje.',
+
+    // Thermopor product page usage - EPS 200
+    'eps200_usage' => 'Toplotna izolacija površina sa velikim opterećenjem',
+    'eps200_desc' => 'EPS 200 je dizajniran za izolaciju podova
+    pa se kao takav koristi za izolaciju podnih
+    konstrukcija sa velikim opterećenjem.
+    Koristi se kao toplinska izolacija plivajućih
+    podova, ravnih krovova, terasa, skladišta,
+    garaža, parkirališta, dubokih temelja i sl.',
+        // Technical
+    'product_eps200_conductivity_value' => '0,032 W/mk',
+    'product_eps200_fire_value' => 'Euroklasa E',
+    'product_eps200_firmness_value' => '≥200 kPa (10% def.)',
+    'product_eps200_standard_value' => 'BAS EN 13163',
+    'product_eps200_flexural_strength_value' => '≥250 kPa',
+    'product_eps200_dimensions_value' => '100 x 50 cm',
+    'product_eps200_water_absorption_value' => '≤1,5%',
+    'product_eps200_marking_value' => 'Dvije žute linije',
+        // Usage
+    'eps_product_usage_200_1' => 'EPS 200 ima malu gustoću sa dovoljno dobrom nosivosti.',
+    'eps_product_usage_200_2' => 'Materijal nosi opterećenja do 200 kPa.',
+    'eps_product_usage_200_3' => 'Voda i vlaga u betonu ne oštećuju karakteristike. Dugotrajno upijanje vode ispod 1,5%.',
+    'eps_product_usage_200_4' => 'Može podnijeti veliki pritisak tla. Podovi se mogu izraditi na površini ovog proizvoda.',
+    'eps_product_usage_200_5' => 'EPS 200 je pogodan za borbu protiv hladnog širenja na mjestima gdje se na izolacijski materijal postavlja veće opterećenje, poput dubokih temelja, zidova podruma, dvorišta, staza i sl.',
+    'eps_product_usage_200_6' => 'EPS F200 ploče od stiropora su toplotni izolatori, vodootporne i podnose opterećenje.',
+    ];

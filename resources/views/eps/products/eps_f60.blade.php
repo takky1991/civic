@@ -10,7 +10,7 @@
     <div class="col-lg-8 order-1 order-lg-2">
         <div class="product">
             <!-- HEADING -->
-            <span class="left">{{__('general.product_F60')}}</span>
+            <span class="left-f">{{__('general.product_F60')}}</span>
             <span class="right">F60</span >
             <!-- PRODUCT IMG, DESC -->
             <div class="row">
@@ -32,42 +32,42 @@
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/toplinska-provodljivost.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_conductivity_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_conductivity_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_conductivity_value')}}</span >
                     </div>  
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/reakcija-na-požar.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_fire_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_fire_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_fire_value')}}</span >
                     </div>  
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/kompresivna-snaga.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_firmness_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_firmness_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_firmness_value')}}</span >
                     </div>     
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/standard.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_standard_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_standard_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_standard_value')}}</span >
                     </div>  
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/savojna-čvrstoća.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_flexural_strength_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_flexural_strength_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_flexural_strength_value')}}</span >
                     </div>      
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/dimenzije.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_dimensions_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_dimensions_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_dimensions_value')}}</span >
                     </div>  
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/dugotrajno-upijanje-vode.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_water_absorption_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_water_absorption_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_water_absorption_value')}}</span >
                     </div>    
                     <div class="col-md-6">
                         <span><img src="{{asset('img/eps/products/oznaka-na-rubu.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                         <span class="desc">{{__('general.product_eps_marking_desc')}}</span>
-                        <span class="value">{{__('general.product_eps_marking_value')}}</span >
+                        <span class="value">{{__('general.product_eps60_marking_value')}}</span >
                     </div>  
                 </div>
             </div>

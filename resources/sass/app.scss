@@ -1131,8 +1131,14 @@ h3 {
         }
     }
 
-    .left {
+    .left-f {
         font-size: 22px;
+        text-transform: uppercase;
+        color: #545759;
+    }
+
+    .left {
+        font-size: 32px;
         text-transform: uppercase;
         color: #545759;
     }

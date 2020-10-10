@@ -6,7 +6,7 @@
             <h1>Tradicija</h1>
         </div>
 
-        <div class="col-lg-6" style="padding-top: inherit;">
+        <div class="col-lg-6" style="padding-top: inherit; text-align: right;">
             <img class="tradition-img img-fluid" src="img/civic-historija-mlin-transp.jpg" alt="Responsive image">
         </div>
         
@@ -23,7 +23,7 @@
             </div>
    
             <div class="col-12 text-center">
-              <img class="tradition-img img-fluid" src="img/civic_tradition1.jpg" alt="Responsive image">
+              <img style="padding: 15px;"  class="tradition-img img-fluid" src="img/civic_tradition1.jpg" alt="Responsive image">
             </div>
         </div>
 
@@ -101,14 +101,15 @@
                     </div>
                 </div>
             </div>
-
+<!--
             <br>
             <br>
             <div class="row">
                 <div class="col-12 text-center">
                     <img class="tradition-img img-fluid" src="img/civic_tradition2.jpg" alt="Responsive image">
                 </div>
-            </div>            
+            </div>   
+-->         
         </div>
     </div>
 @endsection
