@@ -36,6 +36,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
+
+        <a href="{{localized_route('eps_products')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light with-shadow">
+    <div class="container">
         <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'home' ? 'active' : ''}}">
@@ -336,7 +343,5 @@
                 </a>
             </span> --}}
         </div>
-
-        <a href="{{localized_route('eps_products')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:160px" alt="EPS"></a>
     </div>
 </nav>
