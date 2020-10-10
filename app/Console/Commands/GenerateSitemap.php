@@ -132,8 +132,8 @@ class GenerateSitemap extends Command
             ->add(localized_route('eps_quality', [], 'bs'))
             //->add(localized_route('eps_quality', [], 'en'))
 
-            ->add(localized_route('facade_system', [], 'bs'))
-            //->add(localized_route('facade_system', [], 'en'))
+            ->add(localized_route('eps_facade_system', [], 'bs'))
+            //->add(localized_route('eps_facade_system', [], 'en'))
 
             ->add(localized_route('energy_saving', [], 'bs'))
             //->add(localized_route('energy_saving', [], 'en'))
