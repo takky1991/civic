@@ -40,7 +40,7 @@ Route::multilingual('about-us', 'PagesController@aboutUs')->name('about_us');
 Route::multilingual('article1', 'ArticlesController@article1')->name('article1');
 
 // EPS
-Route::multilingual('termopor', 'EpsController@termopor')->name('termopor');
+Route::multilingual('thermopor', 'EpsController@thermopor')->name('thermopor');
 Route::multilingual('eps-products', 'EpsController@products')->name('eps_products');
 Route::multilingual('eps-advantages', 'EpsController@advantages')->name('eps_advantages');
 Route::multilingual('eps-quality', 'EpsController@quality')->name('eps_quality');
@@ -57,4 +57,4 @@ Route::multilingual('eps-200', 'EpsController@eps200')->name('eps_200');
 
 // Donwload
 Route::get('download/gradjevinska-limarija', 'DownloadsController@getPdf')->name('download_pdf');
-Route::get('download/termopor', 'DownloadsController@getEpsPdf')->name('eps_download_pdf');
+Route::get('download/thermopor', 'DownloadsController@getEpsPdf')->name('eps_download_pdf');

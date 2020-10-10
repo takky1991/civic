@@ -120,8 +120,8 @@ class GenerateSitemap extends Command
             ->add(localized_route('article1', [], 'bs'))
 
             // EPS
-            ->add(localized_route('termopor', [], 'bs'))
-            //->add(localized_route('termopor', [], 'en'))
+            ->add(localized_route('thermopor', [], 'bs'))
+            //->add(localized_route('thermopor', [], 'en'))
 
             ->add(localized_route('eps_products', [], 'bs'))
             //->add(localized_route('eps_products', [], 'en'))

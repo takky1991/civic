@@ -3,7 +3,7 @@
 @section('content')
 <div class="row">
     <div class="col-12">
-        <img class="w-100" src="{{asset('img/articles/cover1.jpg')}}" alt="civic termoport">
+        <img class="w-100" src="{{asset('img/articles/cover1.jpg')}}" alt="civic thermoport">
     </div>
 </div>
 

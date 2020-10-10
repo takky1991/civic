@@ -216,7 +216,7 @@ return [
 
     'basic_varnishes' => 'Temeljni lakovi',
     'basic_varnishes_description' => 'Lakovi služe za uklanjanje oštećenja, nastalih tijekom montažnih radova, ili ogrebotina koje su uzrok nastanka korozije i mogu imati negativan utjecaj na buduću eksploataciju. Postoje dvije osnovne vrste lakova: mat i standardni. Njihove boje odgovaraju bojama crijepnog lima po RAL skali ili po individualnim oznakama koje su u aktualnoj ponudi proizvođača i distributera u Poljskoj. Za lakove limenci dajemo 12 mjeseci, a za lakove u spreju 24 mjeseca garancije.',
-    'termopor' => 'Termopor',
+    'thermopor' => 'Thermopor',
     'dry_build' => 'Suha gradnja',
     'references' => 'Reference',
     'construction_sheet' => 'Građevinska limarija',
@@ -287,7 +287,7 @@ return [
     'facade_system' => 'Fasadni sistem',
     'energy_saving' => 'Ušteda energije',
     'other_products' => 'Ostali proizvodi',
-    'termopor_products' => 'Termopor proizvodi',
+    'thermopor_products' => 'Thermopor proizvodi',
     'facade_insulation' => 'Izolacija fasada',
     'attic_insulation' => 'Izolacija potkrovlja',
     'floor_insulation' => 'Izolacija podova',

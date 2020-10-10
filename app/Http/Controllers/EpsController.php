@@ -13,7 +13,7 @@ class EpsController extends Controller
         $this->openGraph = $this->openGraph();
     }
 
-    public function termopor() {
+    public function thermopor() {
         // $this->setTitle(__('meta.contact_title'));
         // $this->setDescription(__('meta.contact_description'));
 
@@ -21,7 +21,7 @@ class EpsController extends Controller
         //     ->set('og:title', __('meta.contact_title'))
         //     ->set('og:description', __('meta.contact_description'));
 
-        return view('eps/termopor');
+        return view('eps/thermopor');
     }
 
     public function products()
@@ -32,8 +32,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.products'),
@@ -54,8 +54,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_advantages'),
@@ -75,8 +75,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.quality'),
@@ -97,8 +97,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.facade_system'),
@@ -119,8 +119,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.energy_saving'),
@@ -141,8 +141,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.other_products'),
@@ -162,8 +162,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_f60'),
@@ -183,8 +183,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_70'),
@@ -204,8 +204,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_f80'),
@@ -225,8 +225,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_100'),
@@ -246,8 +246,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_150'),
@@ -267,8 +267,8 @@ class EpsController extends Controller
                 'link' => localized_route('home')
             ],
             [
-                'label' => __('general.termopor'),
-                'link' => localized_route('termopor')
+                'label' => __('general.thermopor'),
+                'link' => localized_route('thermopor')
             ],
             [
                 'label' => __('general.eps_200'),

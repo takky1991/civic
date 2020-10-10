@@ -214,7 +214,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown hover {{(
-                        explode('.', request()->route()->getName())[1] == 'termopor' ||
+                        explode('.', request()->route()->getName())[1] == 'thermopor' ||
                         explode('.', request()->route()->getName())[1] == 'eps_products' ||
                         explode('.', request()->route()->getName())[1] == 'eps_advantages' ||
                         explode('.', request()->route()->getName())[1] == 'eps_quality' ||
@@ -228,11 +228,11 @@
                         explode('.', request()->route()->getName())[1] == 'eps_150' ||
                         explode('.', request()->route()->getName())[1] == 'eps_200'
                     ) ? 'active' : ''}}">
-                    <a id="dropdownMenu4" href="{{localized_route('termopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
+                    <a id="dropdownMenu4" href="{{localized_route('thermopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
                     <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
                         <li>
-                            <a href="{{localized_route('termopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.termopor')}}</a>
+                            <a href="{{localized_route('thermopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.thermopor')}}</a>
                         </li>
                         <li class="dropdown-submenu hover custom">
                             <a id="dropdownMenu5" href="{{localized_route('eps_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
@@ -317,14 +317,14 @@
 
                         <li>
                             <a href="{{route('eps_download_pdf')}}" target="_blank" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">
-                                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
+                                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.thermopor')}}
                             </a>
                         </li>
                         <!-- End Level two -->
                     </ul>
                 </li>
                 <li>
-                    <a href="{{localized_route('termopor')}}" class="nav-link d-block d-lg-none"><img src="{{asset('img/termopor_2.png')}}" alt="EPS" style="width: 130px"></a>
+                    <a href="{{localized_route('thermopor')}}" class="nav-link d-block d-lg-none"><img src="{{asset('img/thermopor_2.png')}}" alt="EPS" style="width: 130px"></a>
                 </li>
             </ul>
             {{-- <span class="navbar-text d-none d-lg-inline flags">

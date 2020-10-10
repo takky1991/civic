@@ -1,6 +1,6 @@
 <div class="sidebar">
     <div class="sidebar-header">
-        {{__('general.termopor_products')}}
+        {{__('general.thermopor_products')}}
     </div>
     <ul class="nav flex-column">
         <li class="nav-item {{explode('.', request()->route()->getName())[1] == 'eps_f60' ? 'active' : ''}}">
@@ -60,7 +60,7 @@
         </li>
         <li class="nav-item">
             <a href="{{route('eps_download_pdf')}}" target="_blank" class="nav-link">
-                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
+                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.thermopor')}}
             </a>
         </li>
     </ul>

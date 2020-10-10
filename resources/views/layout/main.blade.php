@@ -77,7 +77,7 @@
             </nav>
             @endisset
 
-            <div class="@if(!in_array(explode('.', request()->route()->getName())[1], ['home', 'termopor'])) container pt-4 pb-5 @endif">
+            <div class="@if(!in_array(explode('.', request()->route()->getName())[1], ['home', 'thermopor'])) container pt-4 pb-5 @endif">
                 @yield('content')
             </div>
 

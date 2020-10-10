@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="carousel-item">
-            <a href="{{localized_route('termopor')}}">
+            <a href="{{localized_route('thermopor')}}">
                 <img src="{{asset('img/carousel5.jpg')}}" class="d-none d-md-block w-100" alt="eps">
                 <img src="{{asset('img/carousel5mobile.jpg')}}" class="d-block d-md-none w-100" alt="eps">
                 <div class="carousel-caption">
@@ -79,7 +79,7 @@
             <div class="col-md-10 offset-md-1">
                 <a href="{{localized_route('article1')}}">
                     <div class="homepage-article">
-                        <img v-lazy="'{{asset('img/articles/cover1.jpg')}}'" alt="civic termoport">
+                        <img v-lazy="'{{asset('img/articles/cover1.jpg')}}'" alt="civic thermoport">
                         <h5 class="my-3">Čestitka povodom novogodišnjih praznika</h5>
                     </div>
                 </a>
@@ -146,7 +146,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="img">
-                    <img style="width:200px" v-lazy="'{{asset('img/termopor_2.png')}}'" alt="civic termopor">
+                    <img style="width:200px" v-lazy="'{{asset('img/thermopor_2.png')}}'" alt="civic thermopor">
                 </div>
             </div>
             <div class="col-md-4 text-center">

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3 mb-4" style="text-align:center">
                 <div class="img"><img style="width:200px" v-lazy="'{{asset('img/banner.png')}}'" alt="civic banner"></div>
-                <div class="img"><img style="width:150px" v-lazy="'{{asset('img/termopor_2.png')}}'" alt="civic termopor"></div>
+                <div class="img"><img style="width:150px" v-lazy="'{{asset('img/thermopor_2.png')}}'" alt="civic thermopor"></div>
                 <div class="img"><img style="width:120px" v-lazy="'{{asset('img/90godina.png')}}'" alt="civic 90 godina"></div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
@@ -22,7 +22,7 @@
                     <li><a class="text-muted" href="{{localized_route('home')}}">{{__('general.home')}}</a></li>
                     <li><a class="text-muted" href="{{localized_route('profiled_sheets')}}">{{__('general.profiled_sheets')}}</a></li>
                     <li><a class="text-muted" href="{{localized_route('rainwater_system')}}">{{__('general.rainwater_system')}}</a></li>
-                    <li><a class="text-muted" href="{{localized_route('termopor')}}">{{__('general.termopor')}}</a></li>
+                    <li><a class="text-muted" href="{{localized_route('thermopor')}}">{{__('general.thermopor')}}</a></li>
                     <li><a class="text-muted" href="{{localized_route('dry_build')}}">{{__('general.dry_build')}}</a></li>
                     <li><a class="text-muted" href="{{localized_route('references')}}">{{__('general.references')}}</a></li>
                     <li><a class="text-muted" href="{{localized_route('contact')}}">{{__('general.contact')}}</a></li>

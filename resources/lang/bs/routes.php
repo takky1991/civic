@@ -21,7 +21,7 @@ return [
     'gutter-closure' => 'zatvarc-za-oluke',
     'gutter-corner' => 'vinklo',
     'other-metal-products' => 'ostala-galanterija',
-    'termopor' => 'termopor',
+    'thermopor' => 'thermopor',
     'dry-build' => 'suha-gradja',
     'references' => 'reference',
     'perforated-mesh' => 'perforirana-mrezica',

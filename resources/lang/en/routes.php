@@ -21,7 +21,7 @@ return [
     'gutter-closure' => 'gutter-closure',
     'gutter-corner' => 'gutter-corner',
     'other-metal-products' => 'other-metal-products',
-    'termopor' => 'termopor',
+    'thermopor' => 'thermopor',
     'dry-build' => 'dry-build',
     'references' => 'references',
     'perforated-mesh' => 'perforated-mesh',

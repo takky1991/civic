@@ -17,7 +17,7 @@ class DownloadsController extends Controller
 
     public function getEpsPdf()
     {
-        $pathToFile = storage_path('app/public/pdf/termopor.pdf');
+        $pathToFile = storage_path('app/public/pdf/thermopor.pdf');
 
         $headers = ['Content-Type: application/pdf'];
 

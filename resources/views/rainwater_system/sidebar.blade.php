@@ -47,7 +47,7 @@
         </li>
         <li class="nav-item">
             <a href="{{route('eps_download_pdf')}}" target="_blank" class="nav-link">
-                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.termopor')}}
+                <i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i> {{__('general.thermopor')}}
             </a>
         </li>
     </ul>
