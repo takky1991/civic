@@ -35,7 +35,7 @@
                        <span class="value">{{__('general.product_eps100_conductivity_value')}}</span >
                    </div>  
                    <div class="col-md-6">
-                       <span><img src="{{asset('img/eps/products/reakcija-na-požar.jpg')}}" class="img-fluid" alt="Responsive image"></span>
+                       <span><img src="{{asset('img/eps/products/reakcija-na-pozar.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                        <span class="desc">{{__('general.product_eps_fire_desc')}}</span>
                        <span class="value">{{__('general.product_eps100_fire_value')}}</span >
                    </div>  
@@ -50,7 +50,7 @@
                        <span class="value">{{__('general.product_eps100_standard_value')}}</span >
                    </div>  
                    <div class="col-md-6">
-                       <span><img src="{{asset('img/eps/products/savojna-čvrstoća.jpg')}}" class="img-fluid" alt="Responsive image"></span>
+                       <span><img src="{{asset('img/eps/products/savojna-cvrstoca.jpg')}}" class="img-fluid" alt="Responsive image"></span>
                        <span class="desc">{{__('general.product_eps_flexural_strength_desc')}}</span>
                        <span class="value">{{__('general.product_eps100_flexural_strength_value')}}</span >
                    </div>      
