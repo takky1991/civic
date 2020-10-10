@@ -322,7 +322,6 @@ return [
     'wall_with_insulation' => 'ZID SA IZOLACIJOM',
     'wal_insulation_description' => 'Navedene ilustracije prikazuju gubljenje toplote kroz zid sa izolacijom i bez izolacije. Ovdje možemo zaključiti da kod zidova sa EPS i zolacijom dolazi do velike uštede energije za grijanje. 
     Najbitnije svojstvo izolacijskog materijala je mala vrijednost koeficijenta toplinske provodljivosti λ(W/mK). Koeficijent toplinske provodljivosti predstavlja količinu topline koja prođe u jedinici vremena kroz sloj materijala površine 1m2.',
-    'facade_system' => 'Fasadni sistem',
     'facade_construction' => 'KONSTRUKCIJA FASADE',
 
     'facade_description' => 'Fasadni sistem toplotne izolacije je sistem za izolaciju vanjskog zida kuće. Čitava fasada zgrade poznata je i kao k ompozitna termalna fasada. Fasadni sistem se sastoji od EPS p loča koje su zalijepljene ili pričvršćene građevinskim ljepilom na vanjski zid. Na ovaj izolacijski sloj postavlja se mrežica sa ljepilom za EPS. Mrežica osigurava da kasnije ne dođe do puknuća žbuka zbog ekspanzijskih naprezanja u površini ili manjih
