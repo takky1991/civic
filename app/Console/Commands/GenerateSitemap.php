@@ -135,11 +135,11 @@ class GenerateSitemap extends Command
             ->add(localized_route('eps_facade_system', [], 'bs'))
             //->add(localized_route('eps_facade_system', [], 'en'))
 
-            ->add(localized_route('energy_saving', [], 'bs'))
-            //->add(localized_route('energy_saving', [], 'en'))
+            ->add(localized_route('eps_energy_saving', [], 'bs'))
+            //->add(localized_route('eps_energy_saving', [], 'en'))
 
-            ->add(localized_route('other_products', [], 'bs'));
-            //->add(localized_route('energy_saving', [], 'en'))
+            ->add(localized_route('eps_other_products', [], 'bs'));
+            //->add(localized_route('eps_other_products', [], 'en'))
 
         $sitemap->writeToFile($path);
     }
