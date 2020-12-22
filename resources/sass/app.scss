@@ -1244,15 +1244,75 @@ h3 {
     }
 }
 
+.thermopor-homepage {
+    .yellow {
+        color: #ffc905;
+    }
 
+    .white {
+        color: #ffffff;
+    }
  
-    
+    .thermopor-subheader {
+        padding: 0px 30px;
+        color: #58595b;
+        
+        a {
+            color: #ffc905;
+        }
+        
+        &.one {
+            p {
+                text-align: center;
+                padding: 10px 0;
+                color: #ffffff;
+                background-color: #ffc905;
+            }
+        }
+    }
 
+    .thermopor-products {
+        padding: 50px 0;
+        background-color: #58595b;
 
+        .title {
+            padding: 0;
+            font-size: 35px;
+        }
 
+        .product-name {
+            color: #58595b;
+            background-color: #ffc905;
+            padding: 5px 0;
+        }
 
+        .product-description {
+            color: #ffffff;
+        }
+    }
 
+    .paragraph-banner-mobile {
+        position: relative;
 
+        p {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            text-decoration: underline;
+        }
+    }
 
- 
+    .paragraph-banner {
+        position: relative;
 
+        p {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            text-decoration: underline;
+            font-size: 20px;
+            max-width: 500px;
+            transform: translateY(-50%);
+        }
+    }
+}

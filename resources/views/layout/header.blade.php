@@ -37,7 +37,7 @@
             </button>
         </div>
 
-        <a href="{{localized_route('eps_products')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
+        <a href="{{localized_route('thermopor')}}" class="d-none d-lg-block"><img src="{{asset('img/thermopor_logo.png')}}" style="width:250px" alt="EPS"></a>
     </div>
 </nav>
 
@@ -238,49 +238,49 @@
                     <a id="dropdownMenu4" href="{{localized_route('thermopor')}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">EPS</a>
                     <ul aria-labelledby="dropdownMenu4" class="dropdown-menu border-0">
                         <!-- Level two dropdown-->
-                        {{-- <li>
+                        <li>
                             <a href="{{localized_route('thermopor')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item">{{__('general.thermopor')}}</a>
-                        </li> --}}
+                        </li>
                         <li class="dropdown-submenu hover custom">
                             <a id="dropdownMenu5" href="{{localized_route('eps_products')}}" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">{{__('general.products')}}</a>
                             <div aria-labelledby="dropdownMenu5" class="dropdown-menu border-0">
                                 <a class="dropdown-item" href="{{localized_route('eps_f60')}}">
-                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-Economic F60">
+                                    <img src="{{asset('img/eps/FE60_F80_70.png')}}" alt="EPS-Economic F60">
                                     <div class="menu-title">
                                         {{__('general.eps_f60')}} <br>
                                         <span>{{__('general.facade_insulation')}}</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item" href="{{localized_route('eps_70')}}">
-                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-70">
+                                    <img src="{{asset('img/eps/FE60_F80_70.png')}}" alt="EPS-70">
                                     <div class="menu-title">
                                         {{__('general.eps_70')}} <br>
                                         <span>{{__('general.attic_insulation')}}</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item" href="{{localized_route('eps_f80')}}">
-                                    <img src="{{asset('img/eps/FE60_F80_70.jpg')}}" alt="EPS-F80">
+                                    <img src="{{asset('img/eps/FE60_F80_70.png')}}" alt="EPS-F80">
                                     <div class="menu-title">
                                         {{__('general.eps_f80')}} <br>
                                         <span>{{__('general.facade_insulation')}}</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item" href="{{localized_route('eps_100')}}">
-                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-100">
+                                    <img src="{{asset('img/eps/100_150_200.png')}}" alt="EPS-100">
                                     <div class="menu-title">
                                         {{__('general.eps_100')}} <br>
                                         <span>{{__('general.floor_insulation')}}</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item" href="{{localized_route('eps_150')}}">
-                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-150">
+                                    <img src="{{asset('img/eps/100_150_200.png')}}" alt="EPS-150">
                                     <div class="menu-title">
                                         {{__('general.eps_150')}} <br>
                                         <span>{{__('general.high_load_insulation')}}</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item" href="{{localized_route('eps_200')}}">
-                                    <img src="{{asset('img/eps/100_150_200.jpg')}}" alt="EPS-200">
+                                    <img src="{{asset('img/eps/100_150_200.png')}}" alt="EPS-200">
                                     <div class="menu-title">
                                         {{__('general.eps_200')}} <br>
                                         <span>{{__('general.high_load_insulation')}}</span>

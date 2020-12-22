@@ -15,7 +15,7 @@
            <!-- PRODUCT IMG, DESC -->
            <div class="row">
                <div class="col-md-7">
-                   <img src="{{asset('img/eps/100_150_200.jpg')}}" class="img-fluid" alt="Responsive image">
+                   <img src="{{asset('img/eps/100_150_200.png')}}" class="img-fluid" alt="Responsive image">
                </div>
                <div class="col-md-5">
                    <h3>{{__('general.eps150_usage')}}</h3>

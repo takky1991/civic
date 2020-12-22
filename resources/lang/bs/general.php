@@ -611,4 +611,17 @@ return [
     'eps_product_usage_200_4' => 'Može podnijeti veliki pritisak tla. Podovi se mogu izraditi na površini ovog proizvoda.',
     'eps_product_usage_200_5' => 'EPS 200 je pogodan za borbu protiv hladnog širenja na mjestima gdje se na izolacijski materijal postavlja veće opterećenje, poput dubokih temelja, zidova podruma, dvorišta, staza i sl.',
     'eps_product_usage_200_6' => 'EPS F200 ploče od stiropora su toplotni izolatori, vodootporne i podnose opterećenje.',
-    ];
+
+    // Thermopor homepage
+    'see_more' => 'Vidi više',
+    '98_2' => '98% zraka, samo 2% polistirena',
+    'pearl_among_plastics' => 'biser među plastikom',
+    'what_is_stiropor' => 'Šta je stiropor?',
+    'advantages_eps' => 'Prednosti EPS-a?',
+    'what_is_stiropor_description' => 'Stiropor je pretežno zatvorena, tvrda pjena proivedena toplotnom obradom ekspandibilnog polistirenskog granulata (EPS).',
+    'advantages_eps_description' => 'U odnosu na druge krute izolacije, EPS je bez sumnje najisplativiji, ima odličan omjer troškova i performansi.',
+    'thermopor_homepage_line' => 'proizvodi su za kratko vrijeme postali prepoznatljivi na bosanskohercegovačkom i regionalnom tržištu',
+    'thermopor_homepage_line_2' => 'Stiropor je naftni proizvod, ali zahtjeva izuzento malo ove sirovine jer se sastoji od 98% zraka i samo 2% polistirena.
+    Tijekom životnog vijeka proižvoda može se uštedjeti do 200 litara lož-ulja sa svakom litrom nafte iz koje se stiropor proizvede i koristi za izoliranje zgrada.
+    Tako da je on nafte veća korist ako se od nje proizvodi izloacijski materijal.'
+];
