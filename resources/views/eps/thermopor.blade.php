@@ -114,7 +114,6 @@
     </div>
 
     <div class="paragraph-banner-mobile d-block d-md-none">
-        <img class="w-100" v-lazy="'{{asset('img/eps/styropor_ploce.jpg')}}'" alt="civic">
         <p>{{__('general.thermopor_homepage_line_2')}}</p>
     </div>
 

@@ -1292,13 +1292,13 @@ h3 {
     }
 
     .paragraph-banner-mobile {
-        position: relative;
-
         p {
-            position: absolute;
-            top: 5%;
-            left: 5%;
+            margin: 0;
             text-decoration: underline;
+            background-image: url("/img/eps/styropor_ploce.jpg");
+            background-position: center;
+            background-size: cover;
+            padding: 25px;
         }
     }
 
